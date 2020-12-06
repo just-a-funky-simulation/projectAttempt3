@@ -5,6 +5,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -29,6 +31,7 @@ import {MatRadioModule} from '@angular/material/radio';
     MatSelectModule,
     MatRadioModule,
     MatToolbarModule,
+    MatIconModule,
 
   ],
   providers: [],
