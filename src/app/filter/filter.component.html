@@ -1,6 +1,33 @@
-<p>filter works!</p>
 
+<h1>Filter Movies</h1>
+<h2>Genre:</h2>
+<button mat-raised-button color="primary">Horror</button>
+<button mat-raised-button color="primary">Comedy</button>
+<button mat-raised-button color="primary">Action</button>
+<button mat-raised-button color="primary">Fantasy</button>
+<button mat-raised-button color="primary">Sci-Fi</button>
+<button mat-raised-button color="primary">Adventure</button>
+<button mat-raised-button color="primary">Animation</button>
+<button mat-raised-button color="primary">Indie</button>
+<br>
+<h2>Year:</h2>
 
+<mat-slider thumbLabel min="1900" max="2020" step="1" value="1"></mat-slider>
+<br>
+<h2>Rating:</h2>
+<mat-slider thumbLabel min="0" max="9.5" step="0.5" value="1"></mat-slider>
+<br>
 
-<mat-slider></mat-slider>
-<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+<h2>Main Language:</h2>
+<mat-radio-group>
+  <mat-radio-button value="1">English</mat-radio-button>
+  <br>
+  <mat-radio-button value="2">Russian</mat-radio-button>
+  <br>
+  <mat-radio-button value="2">Spanish</mat-radio-button>
+  <br>
+  <mat-radio-button value="2">French</mat-radio-button>
+</mat-radio-group>
+<br>
+<br>
+<button mat-raised-button color="primary">Filter</button>
