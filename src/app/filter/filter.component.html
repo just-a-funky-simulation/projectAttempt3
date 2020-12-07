@@ -1,9 +1,15 @@
+<style>
+
+
+
+</style>
+
 <p>
   <mat-toolbar color="accent">
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button>
-    <span>My App</span>
+    <span>Filters</span>
     <span class="example-spacer"></span>
     <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
       <mat-icon>favorite</mat-icon>
@@ -14,19 +20,32 @@
 <div style="text-align: center;">
 <h1>Filter Movies</h1>
 <h2>Genre:</h2>
-<button mat-raised-button color="primary" class="button">Horror</button>
-<button mat-raised-button color="primary">Comedy</button>
-<button mat-raised-button color="primary">Action</button>
-<button mat-raised-button color="primary">Fantasy</button>
-<button mat-raised-button color="primary">Sci-Fi</button>
-<button mat-raised-button color="primary">Adventure</button>
-<button mat-raised-button color="primary">Animation</button>
-<button mat-raised-button color="primary">Indie</button>
+  <div style=" margin-right: 25%; margin-left: 25%;">
+  <button mat-raised-button color="primary">Action</button>
+  <button mat-raised-button color="primary">Adventure</button>
+  <button mat-raised-button color="primary">Animation</button>
+  <button mat-raised-button color="primary">Biography</button>
+  <button mat-raised-button color="primary">Comedy</button>
+  <button mat-raised-button color="primary">Crime</button>
+  <button mat-raised-button color="primary">Documentary</button>
+  <button mat-raised-button color="primary">Drama</button>
+  <button mat-raised-button color="primary">Fantasy</button>
+  <button mat-raised-button color="primary">History</button>
+  <button mat-raised-button color="primary">Horror</button>
+  <button mat-raised-button color="primary">Mystery</button>
+  <button mat-raised-button color="primary">Romance</button>
+  <button mat-raised-button color="primary">Sci-Fi</button>
+  <button mat-raised-button color="primary">Short</button>
+  <button mat-raised-button color="primary">Thriller</button>
+  <button mat-raised-button color="primary">War</button>
+  <button mat-raised-button color="primary">Western</button>
+  </div>
+
 <br>
   <br>
 <h2>Year:</h2>
 
-<mat-slider style="width:500px" thumbLabel min="1900" max="2020" step="1" value="0"></mat-slider>
+<mat-slider style="width:500px" thumbLabel min="1900" max="2020" step="5" value="0"></mat-slider>
 <br>
 <h2>Rating:</h2>
 <mat-slider style="width:500px" thumbLabel min="0" max="9.5" step="0.5" value="0"></mat-slider>
@@ -43,8 +62,8 @@
   <mat-radio-button value="4">German</mat-radio-button>
 </mat-radio-group>
   </div>
-<br>
-<br>
-<button mat-raised-button color="primary">Filter</button>
+  <div style="colour:grey; width:60px; height:60px"></div>
+<button mat-raised-button color="primary" style="padding-left:50px;padding-right:50px;">Filter</button>
 
 </div>
+

@@ -8,6 +8,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatChipsModule} from '@angular/material/chips';
 
 
 
@@ -40,6 +41,7 @@ import { GridViewComponent } from './grid-view/grid-view.component';
     MatIconModule,
     MatCardModule,
     MatGridListModule,
+    MatChipsModule,
 
   ],
   providers: [],
