@@ -1,20 +1,3719 @@
 [
   {
-    "id": "tt0005620",
-    "title": "The Light That Failed",
-    "year": "1916",
+    "id": "tt0099524",
+    "title": "Evil Toons",
+    "year": "1992",
+    "runTime": "90",
     "genre": [
+      "Animation",
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0099733",
+    "title": "Happily Ever After",
+    "year": "1990",
+    "runTime": "75",
+    "genre": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0099748",
+    "title": "Haven",
+    "year": "1990",
+    "runTime": "null",
+    "genre": [
+      "Animation"
+    ]
+  },
+  {
+    "id": "tt0099878",
+    "title": "Jetsons: The Movie",
+    "year": "1990",
+    "runTime": "82",
+    "genre": [
+      "Animation",
+      "Comedy",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0099911",
+    "title": "Kaczorek Felus",
+    "year": "1990",
+    "runTime": "90",
+    "genre": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0100194",
+    "title": "Motýlí cas",
+    "year": "1991",
+    "runTime": "84",
+    "genre": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0100245",
+    "title": "Niezwykle przygody pluszowych misiów",
+    "year": "1990",
+    "runTime": "72",
+    "genre": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0100281",
+    "title": "The Nutcracker Prince",
+    "year": "1990",
+    "runTime": "75",
+    "genre": [
+      "Adventure",
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0100339",
+    "title": "Patlabor: The Movie",
+    "year": "1989",
+    "runTime": "100",
+    "genre": [
+      "Action",
+      "Animation",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0100356",
+    "title": "Peter in Magicland",
+    "year": "1990",
+    "runTime": "80",
+    "genre": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0100367",
+    "title": "Pingu på nya äventyr",
+    "year": "1994",
+    "runTime": "null",
+    "genre": [
+      "Animation",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0100477",
+    "title": "The Rescuers Down Under",
+    "year": "1990",
+    "runTime": "77",
+    "genre": [
+      "Adventure",
+      "Animation",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0100912",
+    "title": "Werner - Beinhart!",
+    "year": "1990",
+    "runTime": "93",
+    "genre": [
+      "Action",
+      "Animation",
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0100964",
+    "title": "Würfel",
+    "year": "1990",
+    "runTime": "null",
+    "genre": [
+      "Animation"
+    ]
+  },
+  {
+    "id": "tt0069778",
+    "title": "Berliner Bettwurst",
+    "year": "1975",
+    "runTime": "90",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069781",
+    "title": "Swingin' Swappers",
+    "year": "1973",
+    "runTime": "84",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069794",
+    "title": "Sistemo l'America e torno",
+    "year": "1974",
+    "runTime": "110",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0069798",
+    "title": "Blau blüht der Enzian",
+    "year": "1973",
+    "runTime": "85",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069807",
+    "title": "Blue Summer",
+    "year": "1973",
+    "runTime": "79",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0069808",
+    "title": "Blume in Love",
+    "year": "1973",
+    "runTime": "115",
+    "genre": [
+      "Comedy",
       "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0069810",
+    "title": "Bobby",
+    "year": "1973",
+    "runTime": "168",
+    "genre": [
+      "Comedy",
+      "Musical",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0069815",
+    "title": "Happy New Year",
+    "year": "1973",
+    "runTime": "115",
+    "genre": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0069819",
+    "title": "The Butcher, the Star and the Orphan",
+    "year": "1975",
+    "runTime": "85",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069825",
+    "title": "The Brothers O'Toole",
+    "year": "1973",
+    "runTime": "95",
+    "genre": [
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0069826",
+    "title": "Here We Go Again, Eh Providence?",
+    "year": "1973",
+    "runTime": "99",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0069827",
+    "title": "The Wedding",
+    "year": "1973",
+    "runTime": "91",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0069830",
+    "title": "Buona parte di Paolina",
+    "year": "1973",
+    "runTime": "89",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069832",
+    "title": "Boer Boerson Jr.",
+    "year": "1974",
+    "runTime": "175",
+    "genre": [
+      "Comedy",
+      "Musical"
+    ]
+  },
+  {
+    "id": "tt0069836",
+    "title": "Inspector Calzonzin",
+    "year": "1974",
+    "runTime": "90",
+    "genre": [
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0069837",
+    "title": "Those Dirty Dogs",
+    "year": "1973",
+    "runTime": "83",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0069841",
+    "title": "Cannibal Girls",
+    "year": "1973",
+    "runTime": "84",
+    "genre": [
+      "Comedy",
       "Horror"
     ]
   },
   {
-    "id": "tt0005633",
-    "title": "The Little Minister",
-    "year": "1915",
+    "id": "tt0069842",
+    "title": "Tales of Canterbury",
+    "year": "1973",
+    "runTime": "83",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069844",
+    "title": "Carambola",
+    "year": "1974",
+    "runTime": "94",
+    "genre": [
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0069845",
+    "title": "El carita",
+    "year": "1974",
+    "runTime": "85",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069847",
+    "title": "Carry on Abroad",
+    "year": "1972",
+    "runTime": "88",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0069848",
+    "title": "Carry on Girls",
+    "year": "1973",
+    "runTime": "88",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0069852",
+    "title": "Un casto varón español",
+    "year": "1973",
+    "runTime": "96",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0069860",
+    "title": "Cebo para una adolescente",
+    "year": "1974",
+    "runTime": "88",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0069861",
+    "title": "Celos, amor y Mercado Común",
+    "year": "1973",
+    "runTime": "97",
+    "genre": [
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0076113",
+    "title": "Group Portrait with a Lady",
+    "year": "1977",
+    "runTime": "107",
+    "genre": [
+      "Drama",
+      "History",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0076185",
+    "title": "In the Name of the Pope King",
+    "year": "1977",
+    "runTime": "105",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076196",
+    "title": "Inkognito iz Peterburga",
+    "year": "1978",
+    "runTime": "91",
+    "genre": [
+      "Comedy",
+      "Crime",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076219",
+    "title": "Ivan the Terrible",
+    "year": "1976",
+    "runTime": "91",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076244",
+    "title": "Die Jugendstreiche des Knaben Karl",
+    "year": "1977",
+    "runTime": "88",
+    "genre": [
+      "Comedy",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076305",
+    "title": "A Lei da Terra",
+    "year": "1977",
+    "runTime": "67",
+    "genre": [
+      "Documentary",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076342",
+    "title": "MacArthur",
+    "year": "1977",
+    "runTime": "130",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076390",
+    "title": "My Daughter Hildegart",
+    "year": "1977",
+    "runTime": "109",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076398",
+    "title": "Operation Thunderbolt",
+    "year": "1977",
+    "runTime": "124",
+    "genre": [
+      "Action",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076552",
+    "title": "Poedinok v tayge",
+    "year": "1978",
+    "runTime": "66",
+    "genre": [
+      "Action",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076696",
+    "title": "The Chess Players",
+    "year": "1977",
+    "runTime": "129",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076761",
+    "title": "Steppe",
+    "year": "1978",
+    "runTime": "134",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076842",
+    "title": "Trini",
+    "year": "1979",
+    "runTime": "86",
+    "genre": [
+      "History",
+      "War",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0076855",
+    "title": "One Sings, the Other Doesn't",
+    "year": "1977",
+    "runTime": "120",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0076946",
+    "title": "Yuliya Vrevskaya",
+    "year": "1978",
+    "runTime": "139",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0077115",
+    "title": "80 Hussars",
+    "year": "1978",
+    "runTime": "124",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0077138",
+    "title": "The Tree of Wooden Clogs",
+    "year": "1978",
+    "runTime": "186",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0077158",
+    "title": "American Hot Wax",
+    "year": "1978",
+    "runTime": "91",
+    "genre": [
+      "Drama",
+      "History",
+      "Music"
+    ]
+  },
+  {
+    "id": "tt0077202",
+    "title": "Bájecní muzi s klikou",
+    "year": "1979",
+    "runTime": "90",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0077211",
+    "title": "La barricade du Point du Jour",
+    "year": "1978",
+    "runTime": "110",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0077283",
+    "title": "The Mace with Three Seals",
+    "year": "1977",
+    "runTime": "177",
+    "genre": [
+      "Biography",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0082192",
+    "title": "Come-Back",
+    "year": "1981",
+    "runTime": "120",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082196",
+    "title": "Caution to the Wind",
+    "year": "1980",
+    "runTime": "94",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082202",
+    "title": "Copia cero",
+    "year": "1982",
+    "runTime": "102",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082206",
+    "title": "Coup de Torchon",
+    "year": "1981",
+    "runTime": "128",
+    "genre": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082210",
+    "title": "El crack",
+    "year": "1981",
+    "runTime": "131",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0082214",
+    "title": "La cripta",
+    "year": "1981",
+    "runTime": "110",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082217",
+    "title": "Croque la vie",
+    "year": "1981",
+    "runTime": "105",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082218",
+    "title": "Cry Freedom!",
+    "year": "1981",
+    "runTime": "90",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082219",
+    "title": "The Fault",
+    "year": "1980",
+    "runTime": "120",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0082220",
+    "title": "Cutter's Way",
+    "year": "1981",
+    "runTime": "109",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0082222",
+    "title": "Man of Iron",
+    "year": "1981",
+    "runTime": "156",
+    "genre": [
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0082224",
+    "title": "Czwartki ubogich",
+    "year": "1982",
+    "runTime": "92",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082225",
+    "title": "Céleste",
+    "year": "1980",
+    "runTime": "107",
+    "genre": [
+      "Biography",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082230",
+    "title": "Lady of the Camelias",
+    "year": "1981",
+    "runTime": "115",
     "genre": [
       "Drama",
       "Romance"
+    ]
+  },
+  {
+    "id": "tt0082232",
+    "title": "The Dancers",
+    "year": "1981",
+    "runTime": "null",
+    "genre": [
+      "Adult",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0082233",
+    "title": "A Dangerous Summer",
+    "year": "1982",
+    "runTime": "88",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0082234",
+    "title": "The Dark End of the Street",
+    "year": "1981",
+    "runTime": "89",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082236",
+    "title": "Daughter and Father",
+    "year": "1981",
+    "runTime": "93",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082241",
+    "title": "Carnival Scenes",
+    "year": "1982",
+    "runTime": "119",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082244",
+    "title": "Deadline",
+    "year": "1980",
+    "runTime": "90",
+    "genre": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0082250",
+    "title": "Death Wish II",
+    "year": "1982",
+    "runTime": "89",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082254",
+    "title": "Dein unbekannter Bruder",
+    "year": "1982",
+    "runTime": "105",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082259",
+    "title": "Deprisa, Deprisa",
+    "year": "1981",
+    "runTime": "99",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082261",
+    "title": "La desnuda chica del relax",
+    "year": "1981",
+    "runTime": "94",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082266",
+    "title": "Dina e Django",
+    "year": "1981",
+    "runTime": "90",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082268",
+    "title": "La disubbidienza",
+    "year": "1981",
+    "runTime": "98",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082271",
+    "title": "Djeli, conte d'aujourd'hui",
+    "year": "1981",
+    "runTime": "90",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082275",
+    "title": "Documenteur",
+    "year": "1981",
+    "runTime": "65",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082280",
+    "title": "Muddy River",
+    "year": "1981",
+    "runTime": "105",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0082285",
+    "title": "Double Deal",
+    "year": "1983",
+    "runTime": "90",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0082286",
+    "title": "The Dozens",
+    "year": "1981",
+    "runTime": "78",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0080453",
+    "title": "The Blue Lagoon ",
+    "year": "1980",
+    "runTime": "104",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080460",
+    "title": "Bon Appétit",
+    "year": "1980",
+    "runTime": "90",
+    "genre": [
+      "Adult",
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080463",
+    "title": "Vierges et débauchées",
+    "year": "1980",
+    "runTime": "62",
+    "genre": [
+      "Adult",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080550",
+    "title": "Coast to Coast",
+    "year": "1980",
+    "runTime": "95",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080556",
+    "title": "The Competition ",
+    "year": "1980",
+    "runTime": "123",
+    "genre": [
+      "Drama",
+      "Music",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080586",
+    "title": "Dach überm Kopf",
+    "year": "1980",
+    "runTime": "109",
+    "genre": [
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080604",
+    "title": "Dedicated to..",
+    "year": "1980",
+    "runTime": "97",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080610",
+    "title": "The Last Metro",
+    "year": "1980",
+    "runTime": "131",
+    "genre": [
+      "Drama",
+      "Romance",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0080633",
+    "title": "The Disco of Love",
+    "year": "1980",
+    "runTime": "90",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080652",
+    "title": "Doslo doba da se ljubav proba",
+    "year": "1980",
+    "runTime": "93",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080714",
+    "title": "Falling in Love Again",
+    "year": "1980",
+    "runTime": "103",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080724",
+    "title": "Fatso",
+    "year": "1980",
+    "runTime": "93",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080746",
+    "title": "Honeymoon",
+    "year": "1980",
+    "runTime": "null",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080750",
+    "title": "Foolin' Around",
+    "year": "1980",
+    "runTime": "111",
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Sport"
+    ]
+  },
+  {
+    "id": "tt0080821",
+    "title": "Grzeszny zywot Franciszka Buly",
+    "year": "1980",
+    "runTime": "98",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080823",
+    "title": "Der grüne Vogel ",
+    "year": "1980",
+    "runTime": "94",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080837",
+    "title": "Happy Birthday, Gemini",
+    "year": "1980",
+    "runTime": "107",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080863",
+    "title": "Hero at Large",
+    "year": "1980",
+    "runTime": "98",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080886",
+    "title": "L'homme à tout faire",
+    "year": "1980",
+    "runTime": "99",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080887",
+    "title": "Honey Throat",
+    "year": "1980",
+    "runTime": "75",
+    "genre": [
+      "Adult",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080888",
+    "title": "Honeysuckle Rose",
+    "year": "1980",
+    "runTime": "119",
+    "genre": [
+      "Drama",
+      "Music",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080916",
+    "title": "L'immorale",
+    "year": "1980",
+    "runTime": "90",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080928",
+    "title": "Inside Moves",
+    "year": "1980",
+    "runTime": "113",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080945",
+    "title": "Jane Austen in Manhattan",
+    "year": "1980",
+    "runTime": "111",
+    "genre": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080948",
+    "title": "The Jazz Singer ",
+    "year": "1980",
+    "runTime": "115",
+    "genre": [
+      "Drama",
+      "Music",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080951",
+    "title": "Je vous aime",
+    "year": "1980",
+    "runTime": "105",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080961",
+    "title": "The Imperious Princess",
+    "year": "1980",
+    "runTime": "105",
+    "genre": [
+      "Musical",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0080964",
+    "title": "Cute Girl",
+    "year": "1980",
+    "runTime": "90",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0352951",
+    "title": "Under the Radar ",
+    "year": "2004",
+    "runTime": "95",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0353014",
+    "title": "Sky Blue",
+    "year": "2003",
+    "runTime": "86",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Animation"
+    ]
+  },
+  {
+    "id": "tt0353027",
+    "title": "Zadacha s mnogo neizvestni",
+    "year": "1977",
+    "runTime": "65",
+    "genre": [
+      "Adventure",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0353244",
+    "title": "Bitter Jester",
+    "year": "2003",
+    "runTime": "null",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0353261",
+    "title": "BraveStarr: The Legend",
+    "year": "1988",
+    "runTime": "91",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Animation"
+    ]
+  },
+  {
+    "id": "tt0353291",
+    "title": "Chengji sihan",
+    "year": "1986",
+    "runTime": "195",
+    "genre": [
+      "Adventure"
+    ]
+  },
+  {
+    "id": "tt0353324",
+    "title": "The Crow: Wicked Prayer",
+    "year": "2005",
+    "runTime": "99",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0353332",
+    "title": "Dark Woods",
+    "year": "2003",
+    "runTime": "75",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Horror"
+    ]
+  },
+  {
+    "id": "tt0353351",
+    "title": "Dhund: The Fog",
+    "year": "2003",
+    "runTime": "153",
+    "genre": [
+      "Adventure",
+      "Horror",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0353357",
+    "title": "Day of Wrath",
+    "year": "2006",
+    "runTime": "109",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0353545",
+    "title": "I Accidentally Domed Your Son",
+    "year": "2004",
+    "runTime": "90",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt0353782",
+    "title": "Napoleon",
+    "year": "1994",
+    "runTime": "null",
+    "genre": [
+      "Adventure",
+      "Family"
+    ]
+  },
+  {
+    "id": "tt0353960",
+    "title": "Rudraksham",
+    "year": "1994",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0354009",
+    "title": "Shestvie zolotykh zverey",
+    "year": "1979",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0354036",
+    "title": "The Last Passenger",
+    "year": "1959",
+    "runTime": "null",
+    "genre": [
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0354078",
+    "title": "Feng ling zhong di dao xing",
+    "year": "1983",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "tt0354112",
+    "title": "¿La tierra prometida?",
+    "year": "1986",
+    "runTime": "96",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0354126",
+    "title": "O Tropeiro",
+    "year": "1964",
+    "runTime": "null",
+    "genre": [
+      "Adventure"
+    ]
+  },
+  {
+    "id": "tt0354131",
+    "title": "Year One",
+    "year": "2006",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0354146",
+    "title": "Six O'Clock at the Airport",
+    "year": "1958",
+    "runTime": "78",
+    "genre": [
+      "Adventure"
+    ]
+  },
+  {
+    "id": "tt0354258",
+    "title": "Über Tal und Wolken",
+    "year": "1956",
+    "runTime": "71",
+    "genre": [
+      "Adventure",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0354503",
+    "title": "Dharti",
+    "year": "1970",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0354533",
+    "title": "El día del retiro",
+    "year": "2002",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0267703",
+    "title": "Maidan-E-Jung",
+    "year": "1995",
+    "runTime": "155",
+    "genre": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0267761",
+    "title": "Mounam",
+    "year": "1995",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Romance",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0267770",
+    "title": "Más allá de la violencia",
+    "year": "1971",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0267784",
+    "title": "No Deposit, No Return",
+    "year": "2000",
+    "runTime": "90",
+    "genre": [
+      "Action"
+    ]
+  },
+  {
+    "id": "tt0267790",
+    "title": "Number One",
+    "year": "1994",
+    "runTime": "131",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0267804",
+    "title": "The One ",
+    "year": "2001",
+    "runTime": "87",
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0267830",
+    "title": "Police Officer",
+    "year": "1992",
+    "runTime": "158",
+    "genre": [
+      "Action"
+    ]
+  },
+  {
+    "id": "tt0267845",
+    "title": "Prem Shakti",
+    "year": "1994",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0267923",
+    "title": "She",
+    "year": "2001",
+    "runTime": "94",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0267950",
+    "title": "Sri Krishnarjuna Vijayam",
+    "year": "1996",
+    "runTime": "131",
+    "genre": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt0267964",
+    "title": "Suryaputrulu",
+    "year": "1996",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268117",
+    "title": "Aar Paar",
+    "year": "1985",
+    "runTime": "125",
+    "genre": [
+      "Action"
+    ]
+  },
+  {
+    "id": "tt0268160",
+    "title": "Awaaz",
+    "year": "1984",
+    "runTime": "150",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268166",
+    "title": "Baghavat",
+    "year": "1982",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0268202",
+    "title": "Bruce Lee and Kung Fu Mania",
+    "year": "1992",
+    "runTime": "85",
+    "genre": [
+      "Action",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0268216",
+    "title": "Charas",
+    "year": "1976",
+    "runTime": "159",
+    "genre": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0268221",
+    "title": "Bangles",
+    "year": "1998",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0268255",
+    "title": "Oro diablo",
+    "year": "2000",
+    "runTime": "90",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268273",
+    "title": "Dushman ",
+    "year": "1990",
+    "runTime": "146",
+    "genre": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268373",
+    "title": "Hum Se Hai Zamana",
+    "year": "1983",
+    "runTime": "119",
+    "genre": [
+      "Action"
+    ]
+  },
+  {
+    "id": "tt0268376",
+    "title": "The Princess and the Hunter",
+    "year": "1935",
+    "runTime": "164",
+    "genre": [
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "tt0268384",
+    "title": "Inspector",
+    "year": "1957",
+    "runTime": "null",
+    "genre": [
+      "Action"
+    ]
+  },
+  {
+    "id": "tt0268397",
+    "title": "Jimmy Neutron: Boy Genius",
+    "year": "2001",
+    "runTime": "82",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Animation"
+    ]
+  },
+  {
+    "id": "tt0268406",
+    "title": "Khidi",
+    "year": "1942",
+    "runTime": "50",
+    "genre": [
+      "Action",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0268416",
+    "title": "Lalkar (The Challenge)",
+    "year": "1972",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0268427",
+    "title": "El luchador fenómeno",
+    "year": "1952",
+    "runTime": "105",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268447",
+    "title": "Mattoru Karnan",
+    "year": "1978",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0268456",
+    "title": "Meri Adaalat",
+    "year": "1984",
+    "runTime": "131",
+    "genre": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0268548",
+    "title": "Pressure Point",
+    "year": "2001",
+    "runTime": "90",
+    "genre": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0268578",
+    "title": "Rio sang juara",
+    "year": "1989",
+    "runTime": "90",
+    "genre": [
+      "Action"
+    ]
+  },
+  {
+    "id": "tt0268637",
+    "title": "Shock Maar",
+    "year": "1999",
+    "runTime": "null",
+    "genre": [
+      "Action"
+    ]
+  },
+  {
+    "id": "tt0268695",
+    "title": "The Time Machine",
+    "year": "2002",
+    "runTime": "96",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0268706",
+    "title": "Tri dnya vne zakona",
+    "year": "1992",
+    "runTime": "95",
+    "genre": [
+      "Action",
+      "Crime",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0268709",
+    "title": "Tsanis kheobis saundje",
+    "year": "1941",
+    "runTime": "60",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268877",
+    "title": "By Hook or by Crook",
+    "year": "1986",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Crime",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0268918",
+    "title": "America America",
+    "year": "1983",
+    "runTime": "148",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268929",
+    "title": "Aananda Jothi",
+    "year": "1963",
+    "runTime": "152",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268954",
+    "title": "Athirathram",
+    "year": "1984",
+    "runTime": "156",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0268990",
+    "title": "Bhavani Junction",
+    "year": "1985",
+    "runTime": "128",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0268997",
+    "title": "Bintang Malam",
+    "year": "1991",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0269043",
+    "title": "The Road",
+    "year": "2000",
+    "runTime": "107",
+    "genre": [
+      "Action",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0358502",
+    "title": "Hana to ryu",
+    "year": "1962",
+    "runTime": "109",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0358545",
+    "title": "Suspended Sentence",
+    "year": "1973",
+    "runTime": "90",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0358557",
+    "title": "Scratched Faces",
+    "year": "1971",
+    "runTime": "96",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0358607",
+    "title": "Nihon no jingi",
+    "year": "1977",
+    "runTime": "106",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0358623",
+    "title": "A Man's World",
+    "year": "1971",
+    "runTime": "82",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0358717",
+    "title": "Girl Boss Revenge: Sukeban",
+    "year": "1973",
+    "runTime": "86",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0358774",
+    "title": "Yakuza sensei",
+    "year": "1960",
+    "runTime": "106",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0358775",
+    "title": "Yakuza tai G-men",
+    "year": "1973",
+    "runTime": "93",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0358902",
+    "title": "22-2000 Cidade Aberta",
+    "year": "1965",
+    "runTime": "null",
+    "genre": [
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0358942",
+    "title": "Apna Khoon",
+    "year": "1978",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0358955",
+    "title": "Atishbaz",
+    "year": "1990",
+    "runTime": "165",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0358960",
+    "title": "Aurat Aurat Aurat",
+    "year": "1996",
+    "runTime": "null",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0358976",
+    "title": "Bahia",
+    "year": "1960",
+    "runTime": "null",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0358977",
+    "title": "Bai Hoc Nho Doi ",
+    "year": "1977",
+    "runTime": "65",
+    "genre": [
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0358992",
+    "title": "Bedardi ",
+    "year": "1993",
+    "runTime": "146",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0359024",
+    "title": "The Box ",
+    "year": "2003",
+    "runTime": "99",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0359151",
+    "title": "Deshwasi",
+    "year": "1991",
+    "runTime": "145",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0359173",
+    "title": "Story of a Bad Temper: Impudent Fellow",
+    "year": "1964",
+    "runTime": "85",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0359174",
+    "title": "Dokufu Takahashi Oden",
+    "year": "1958",
+    "runTime": "74",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0359175",
+    "title": "Wharf",
+    "year": "1969",
+    "runTime": "null",
+    "genre": [
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0359190",
+    "title": "The Drop",
+    "year": "2000",
+    "runTime": "87",
+    "genre": [
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0359212",
+    "title": "Eiko eno chôsen",
+    "year": "1966",
+    "runTime": "101",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0359250",
+    "title": "Fallen Dreams",
+    "year": "2001",
+    "runTime": "80",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0359319",
+    "title": "Gezocht: Lieve vader en moeder",
+    "year": "1988",
+    "runTime": "74",
+    "genre": [
+      "Crime",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0359368",
+    "title": "Hahakaar",
+    "year": "1996",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0359370",
+    "title": "Hakurai jingi: Kapone no shatei ",
+    "year": "1970",
+    "runTime": "88",
+    "genre": [
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0359432",
+    "title": "Hostage... Hanapin si Batuigas!",
+    "year": "1977",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0359442",
+    "title": "Hum Bhi Insaan Hain",
+    "year": "1989",
+    "runTime": "149",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0359444",
+    "title": "Hum Se Na Takrana",
+    "year": "1990",
+    "runTime": "145",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0359457",
+    "title": "Imaandaar",
+    "year": "1987",
+    "runTime": "152",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0359458",
+    "title": "The Giant",
+    "year": "1960",
+    "runTime": "null",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0359514",
+    "title": "Joôbachi",
+    "year": "1958",
+    "runTime": "76",
+    "genre": [
+      "Crime"
+    ]
+  },
+  {
+    "id": "tt0141465",
+    "title": "Julho no Baixo Alentejo ",
+    "year": "1978",
+    "runTime": "70",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141467",
+    "title": "Junho no Alto Alentejo",
+    "year": "1978",
+    "runTime": "70",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141517",
+    "title": "The African Elephant",
+    "year": "1971",
+    "runTime": "92",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141520",
+    "title": "A kisbaba, a kutya meg én",
+    "year": "1996",
+    "runTime": "46",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141523",
+    "title": "Krémes érzések",
+    "year": "1997",
+    "runTime": "56",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141524",
+    "title": "Hot Guys",
+    "year": "1976",
+    "runTime": "74",
+    "genre": [
+      "Documentary",
+      "Drama",
+      "Music"
+    ]
+  },
+  {
+    "id": "tt0141525",
+    "title": "Kwaheri: Vanishing Africa",
+    "year": "1964",
+    "runTime": "80",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141567",
+    "title": "Magnificent Foresight",
+    "year": "1958",
+    "runTime": "55",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141568",
+    "title": "Maio na Estremadura",
+    "year": "1978",
+    "runTime": "70",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141582",
+    "title": "Marinka ",
+    "year": "1998",
+    "runTime": "55",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141585",
+    "title": "Março na Grande Lisboa",
+    "year": "1978",
+    "runTime": "70",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141605",
+    "title": "The War After the War",
+    "year": "1969",
+    "runTime": "90",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141611",
+    "title": "The Death of Masks",
+    "year": "1997",
+    "runTime": "50",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141620",
+    "title": "Mucius",
+    "year": "1997",
+    "runTime": "58",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141623",
+    "title": "A munkásosztály a francba ment",
+    "year": "1996",
+    "runTime": "57",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141624",
+    "title": "A munkásosztály a kapitalizmusba megy",
+    "year": "1997",
+    "runTime": "84",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141650",
+    "title": "Ne kavarj!",
+    "year": "1997",
+    "runTime": "128",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141653",
+    "title": "Nelson Rodríguez: El cine y la vida",
+    "year": "1995",
+    "runTime": "90",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141656",
+    "title": "Nice - À propos de Jean Vigo",
+    "year": "1983",
+    "runTime": "58",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141699",
+    "title": "Out of the Past",
+    "year": "1998",
+    "runTime": "97",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141700",
+    "title": "Outono no Alto Douro",
+    "year": "1978",
+    "runTime": "70",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141716",
+    "title": "Party Monster",
+    "year": "1998",
+    "runTime": "57",
+    "genre": [
+      "Biography",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141743",
+    "title": "Prior to the Leap Into Space",
+    "year": "1961",
+    "runTime": "null",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141745",
+    "title": "A Procissão dos Bêbados ",
+    "year": "1975",
+    "runTime": "70",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141754",
+    "title": "Pyrenees and Wooden Legs",
+    "year": "1920",
+    "runTime": "null",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141763",
+    "title": "Ramses ja unet",
+    "year": "1982",
+    "runTime": "80",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0141764",
+    "title": "Os Ranchos de Braga e Esposende",
+    "year": "1935",
+    "runTime": "null",
+    "genre": [
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0135707",
+    "title": "Wind River",
+    "year": "2000",
+    "runTime": "97",
+    "genre": [
+      "Drama",
+      "Family",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0149624",
+    "title": "All the Pretty Horses",
+    "year": "2000",
+    "runTime": "116",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0176579",
+    "title": "Bullfighter",
+    "year": "2000",
+    "runTime": "90",
+    "genre": [
+      "Action",
+      "Fantasy",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0177185",
+    "title": "The Rowdy Girls ",
+    "year": "2000",
+    "runTime": "90",
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0179473",
+    "title": "South of Heaven, West of Hell",
+    "year": "2000",
+    "runTime": "131",
+    "genre": [
+      "Drama",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0183639",
+    "title": "The Pavilion",
+    "year": "2000",
+    "runTime": "94",
+    "genre": [
+      "Drama",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0198460",
+    "title": "Escape to Grizzly Mountain",
+    "year": "2000",
+    "runTime": "95",
+    "genre": [
+      "Family",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0200007",
+    "title": "The Return of Thunder Cloud's Spirit",
+    "year": "1913",
+    "runTime": "56",
+    "genre": [
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0200093",
+    "title": "Scotty & Co.",
+    "year": "1970",
+    "runTime": "86",
+    "genre": [
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0200096",
+    "title": "If You Want to Live... Shoot!",
+    "year": "1968",
+    "runTime": "97",
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0218378",
+    "title": "The Claim",
+    "year": "2000",
+    "runTime": "120",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0243737",
+    "title": "At Full Gallop",
+    "year": "2000",
+    "runTime": "83",
+    "genre": [
+      "Comedy",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0251412",
+    "title": "Stageghost",
+    "year": "2000",
+    "runTime": "104",
+    "genre": [
+      "Thriller",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0257197",
+    "title": "Stardust",
+    "year": "2000",
+    "runTime": "null",
+    "genre": [
+      "Adventure",
+      "Sci-Fi",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0271383",
+    "title": "A Dog's Will",
+    "year": "2000",
+    "runTime": "104",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0285242",
+    "title": "Jericho ",
+    "year": "2000",
+    "runTime": "101",
+    "genre": [
+      "Mystery",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0210065",
+    "title": "Gangster No. 1",
+    "year": "2000",
+    "runTime": "103",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0213561",
+    "title": "Christie Malry's Own Double-Entry",
+    "year": "2000",
+    "runTime": "89",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0213677",
+    "title": "Ghaath",
+    "year": "2000",
+    "runTime": "null",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0214728",
+    "title": "2000 AD Gong yuan",
+    "year": "2000",
+    "runTime": "109",
+    "genre": [
+      "Action",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0214757",
+    "title": "Held for Ransom ",
+    "year": "2000",
+    "runTime": "88",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0215526",
+    "title": "Artificial Lies ",
+    "year": "2000",
+    "runTime": "92",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0215715",
+    "title": "O Dia da Caça",
+    "year": "2000",
+    "runTime": "113",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0215941",
+    "title": "Love Her Madly",
+    "year": "2000",
+    "runTime": "92",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0216148",
+    "title": "Recycled",
+    "year": "2000",
+    "runTime": "93",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0216198",
+    "title": "The Final Lesson",
+    "year": "2000",
+    "runTime": "92",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0216620",
+    "title": "Christina's House",
+    "year": "2000",
+    "runTime": "97",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0216851",
+    "title": "White Water Fury",
+    "year": "2000",
+    "runTime": "null",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0216965",
+    "title": "L'altra cara de la lluna",
+    "year": "2000",
+    "runTime": "97",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0217007",
+    "title": "Risk",
+    "year": "2000",
+    "runTime": "93",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0217086",
+    "title": "Devil in the Flesh 2",
+    "year": "2000",
+    "runTime": "92",
+    "genre": [
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0217107",
+    "title": "Trois",
+    "year": "2000",
+    "runTime": "93",
+    "genre": [
+      "Drama",
+      "Romance",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0217119",
+    "title": "A Matter of Taste",
+    "year": "2000",
+    "runTime": "90",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0217621",
+    "title": "The List",
+    "year": "2000",
+    "runTime": "93",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0218067",
+    "title": "The Calling",
+    "year": "2000",
+    "runTime": "89",
+    "genre": [
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0218080",
+    "title": "Agent Red",
+    "year": "2000",
+    "runTime": "95",
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0218625",
+    "title": "The St. Francisville Experiment",
+    "year": "2000",
+    "runTime": "79",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0218824",
+    "title": "The Asylum",
+    "year": "2000",
+    "runTime": "99",
+    "genre": [
+      "Drama",
+      "Horror",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0218912",
+    "title": "Cross",
+    "year": "2000",
+    "runTime": "null",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0221315",
+    "title": "Kaliber Deluxe",
+    "year": "2000",
+    "runTime": "107",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0221554",
+    "title": "Six-Pack",
+    "year": "2000",
+    "runTime": "110",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0221563",
+    "title": "Sorted",
+    "year": "2000",
+    "runTime": "102",
+    "genre": [
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0221885",
+    "title": "Contaminated Man",
+    "year": "2000",
+    "runTime": "100",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0033416",
+    "title": "Boyevoy kinosbornik 2",
+    "year": "1941",
+    "runTime": "null",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033417",
+    "title": "Boyevoy kinosbornik 3",
+    "year": "1941",
+    "runTime": "null",
+    "genre": [
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033418",
+    "title": "Boyevoy kinosbornik 4",
+    "year": "1941",
+    "runTime": "null",
+    "genre": [
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033419",
+    "title": "Boyevoy kinosbornik 5",
+    "year": "1941",
+    "runTime": "null",
+    "genre": [
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033420",
+    "title": "Boyevoy kinosbornik 6",
+    "year": "1941",
+    "runTime": "null",
+    "genre": [
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033421",
+    "title": "Boyevoy kinosbornik 7",
+    "year": "1941",
+    "runTime": "70",
+    "genre": [
+      "Comedy",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033422",
+    "title": "Bogdan Khmelnitskiy",
+    "year": "1941",
+    "runTime": "114",
+    "genre": [
+      "Drama",
+      "History",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033436",
+    "title": "Buck Privates",
+    "year": "1941",
+    "runTime": "84",
+    "genre": [
+      "Comedy",
+      "Musical",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033438",
+    "title": "The Bugle Sounds",
+    "year": "1942",
+    "runTime": "102",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033455",
+    "title": "Caught in the Draft",
+    "year": "1941",
+    "runTime": "82",
+    "genre": [
+      "Comedy",
+      "Romance",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033486",
+    "title": "Confirm or Deny ",
+    "year": "1941",
+    "runTime": "74",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033500",
+    "title": "Criminals Within",
+    "year": "1941",
+    "runTime": "70",
+    "genre": [
+      "Crime",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033511",
+    "title": "Suicide Squadron",
+    "year": "1941",
+    "runTime": "94",
+    "genre": [
+      "Drama",
+      "Romance",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033531",
+    "title": "The Devil Pays Off",
+    "year": "1941",
+    "runTime": "70",
+    "genre": [
+      "Crime",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033537",
+    "title": "Dive Bomber",
+    "year": "1941",
+    "runTime": "132",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033578",
+    "title": "Escuadrilla",
+    "year": "1941",
+    "runTime": "90",
+    "genre": [
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033621",
+    "title": "Somewhere in France",
+    "year": "1942",
+    "runTime": "87",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033627",
+    "title": "49th Parallel",
+    "year": "1941",
+    "runTime": "123",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033635",
+    "title": "A Voice in the Night",
+    "year": "1941",
+    "runTime": "95",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033637",
+    "title": "The Girl from Leningrad",
+    "year": "1941",
+    "runTime": "92",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033642",
+    "title": "Första divisionen",
+    "year": "1941",
+    "runTime": "92",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033662",
+    "title": "Gilberte de Courgenay",
+    "year": "1941",
+    "runTime": "115",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033676",
+    "title": "Great Guns",
+    "year": "1941",
+    "runTime": "74",
+    "genre": [
+      "Comedy",
+      "Romance",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033690",
+    "title": "¡Harka!",
+    "year": "1941",
+    "runTime": "68",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033713",
+    "title": "Heroes of the Sea",
+    "year": "1939",
+    "runTime": "80",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033741",
+    "title": "I Wanted Wings",
+    "year": "1941",
+    "runTime": "135",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033759",
+    "title": "International Squadron",
+    "year": "1941",
+    "runTime": "85",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033801",
+    "title": "Lad from Our Town",
+    "year": "1942",
+    "runTime": "82",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033873",
+    "title": "Man Hunt",
+    "year": "1941",
+    "runTime": "105",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033876",
+    "title": "Man at Large",
+    "year": "1941",
+    "runTime": "70",
+    "genre": [
+      "Mystery",
+      "Thriller",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0033941",
+    "title": "The White Ship",
+    "year": "1941",
+    "runTime": "77",
+    "genre": [
+      "Drama",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0286537",
+    "title": "Chambers: Tracks & Gestures",
+    "year": "1983",
+    "runTime": "null",
+    "genre": [
+      "Biography",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0287100",
+    "title": "Living Afterwards: Words of Women",
+    "year": "2001",
+    "runTime": "105",
+    "genre": [
+      "Biography",
+      "War"
+    ]
+  },
+  {
+    "id": "tt0287624",
+    "title": "Paradise Found",
+    "year": "2003",
+    "runTime": "93",
+    "genre": [
+      "Biography",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0288519",
+    "title": "Facing the Music",
+    "year": "2001",
+    "runTime": "89",
+    "genre": [
+      "Biography",
+      "Documentary",
+      "Music"
+    ]
+  },
+  {
+    "id": "tt0289080",
+    "title": "Ayam El-Sadat",
+    "year": "2001",
+    "runTime": "165",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0289355",
+    "title": "Nasser 56",
+    "year": "1996",
+    "runTime": "142",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0289483",
+    "title": "Stavros Tornes: The Poor Hunter of the South",
+    "year": "1994",
+    "runTime": "78",
+    "genre": [
+      "Biography",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0289999",
+    "title": "María Cano",
+    "year": "1990",
+    "runTime": "106",
+    "genre": [
+      "Biography",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0290423",
+    "title": "The Afternoon of a Torturer",
+    "year": "2001",
+    "runTime": "80",
+    "genre": [
+      "Biography",
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0291032",
+    "title": "Balzac and the Little Chinese Seamstress",
+    "year": "2002",
+    "runTime": "110",
+    "genre": [
+      "Biography",
+      "Drama",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt0291149",
+    "title": "Endless Waltz",
+    "year": "1995",
+    "runTime": "102",
+    "genre": [
+      "Biography",
+      "Drama",
+      "Music"
+    ]
+  },
+  {
+    "id": "tt0291377",
+    "title": "Nelson Gonçalves",
+    "year": "2002",
+    "runTime": "72",
+    "genre": [
+      "Biography",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0292097",
+    "title": "Markova: Comfort Gay",
+    "year": "2000",
+    "runTime": "97",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ]
+  },
+  {
+    "id": "tt0292352",
+    "title": "Wheatfield with Crows",
+    "year": "2002",
+    "runTime": "null",
+    "genre": [
+      "Biography",
+      "Drama",
+      "Music"
+    ]
+  },
+  {
+    "id": "tt0292371",
+    "title": "Giannis Ritsos",
+    "year": "1984",
+    "runTime": "90",
+    "genre": [
+      "Biography",
+      "Documentary"
+    ]
+  },
+  {
+    "id": "tt0081421",
+    "title": "The Return",
+    "year": "1980",
+    "runTime": "91",
+    "genre": [
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0081459",
+    "title": "Schizoid",
+    "year": "1980",
+    "runTime": "89",
+    "genre": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0081617",
+    "title": "Terror Train",
+    "year": "1980",
+    "runTime": "97",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0081626",
+    "title": "Trhauma ",
+    "year": "1980",
+    "runTime": "72",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0081662",
+    "title": "Zigeunerweisen",
+    "year": "1980",
+    "runTime": "144",
+    "genre": [
+      "Horror",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0081687",
+    "title": "Union City",
+    "year": "1980",
+    "runTime": "87",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0081738",
+    "title": "The Watcher in the Woods",
+    "year": "1980",
+    "runTime": "84",
+    "genre": [
+      "Family",
+      "Horror",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0085934",
+    "title": "Merry-Go-Round",
+    "year": "1980",
+    "runTime": "160",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0086449",
+    "title": "To All a Goodnight",
+    "year": "1980",
+    "runTime": "87",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0123954",
+    "title": "Leather Persuasion",
+    "year": "1980",
+    "runTime": "null",
+    "genre": [
+      "Adult",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0127116",
+    "title": "Plato's: The Movie",
+    "year": "1980",
+    "runTime": "74",
+    "genre": [
+      "Adult",
+      "Comedy",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0128164",
+    "title": "Savage Hunt of King Stakh",
+    "year": "1980",
+    "runTime": "134",
+    "genre": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0135561",
+    "title": "Mystery Island",
+    "year": "1980",
+    "runTime": "95",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0152098",
+    "title": "PSI Factor",
+    "year": "1980",
+    "runTime": "91",
+    "genre": [
+      "Mystery",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0178176",
+    "title": "Aakhri Insaaf",
+    "year": "1980",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0182336",
+    "title": "Más allá de la aventura ",
+    "year": "1980",
+    "runTime": "95",
+    "genre": [
+      "Adventure",
+      "Family",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0186103",
+    "title": "Jue dai ying xiong",
+    "year": "1980",
+    "runTime": "null",
+    "genre": [
+      "Action",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0189857",
+    "title": "Ombre",
+    "year": "1980",
+    "runTime": "94",
+    "genre": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0211743",
+    "title": "The Wicked",
+    "year": "1980",
+    "runTime": "129",
+    "genre": [
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0233574",
+    "title": "La dinastía de Dracula",
+    "year": "1980",
+    "runTime": "85",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0253618",
+    "title": "Saboot",
+    "year": "1980",
+    "runTime": "132",
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0277903",
+    "title": "Morir de madrugada",
+    "year": "1980",
+    "runTime": "90",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0283577",
+    "title": "Sabor a sangre",
+    "year": "1980",
+    "runTime": "91",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0290516",
+    "title": "El charro del misterio",
+    "year": "1980",
+    "runTime": "80",
+    "genre": [
+      "Drama",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "tt0033553",
+    "title": "Dr. Jekyll and Mr. Hyde",
+    "year": "1941",
+    "runTime": "113",
+    "genre": [
+      "Drama",
+      "Horror",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0046121",
+    "title": "The Neanderthal Man",
+    "year": "1953",
+    "runTime": "78",
+    "genre": [
+      "Horror",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0062622",
+    "title": "2001: A Space Odyssey",
+    "year": "1968",
+    "runTime": "149",
+    "genre": [
+      "Adventure",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0065235",
+    "title": "I Killed Einstein, Gentlemen",
+    "year": "1970",
+    "runTime": "95",
+    "genre": [
+      "Comedy",
+      "Romance",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0070723",
+    "title": "Soylent Green",
+    "year": "1973",
+    "runTime": "97",
+    "genre": [
+      "Crime",
+      "Mystery",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0070909",
+    "title": "Westworld",
+    "year": "1973",
+    "runTime": "88",
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0069293",
+    "title": "Solaris",
+    "year": "1972",
+    "runTime": "167",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt1446714",
+    "title": "Prometheus",
+    "year": "2012",
+    "runTime": "124",
+    "genre": [
+      "Adventure",
+      "Mystery",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt2220034",
+    "title": "Australiens",
+    "year": "2014",
+    "runTime": "112",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
     ]
   }
 ]

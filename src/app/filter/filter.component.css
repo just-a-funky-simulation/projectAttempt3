@@ -4,3 +4,9 @@ button{
    margin-right: 5px;
    margin-left: 5px;
 }
+.alligngood {
+
+  display: inline-grid;
+  /* display: grid; */
+  margin: 15px 0;
+}

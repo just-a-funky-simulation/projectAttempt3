@@ -9,6 +9,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatRadioModule} from '@angular/material/radio';
+
 
 
 
@@ -18,8 +20,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { FilterComponent } from './filter/filter.component';
-import {MatRadioModule} from '@angular/material/radio';
 import { GridViewComponent } from './grid-view/grid-view.component';
+import { ExpandedViewComponent } from './expanded-view/expanded-view.component';
+import { WatchedMovieComponent } from './watched-movie/watched-movie.component';
 
 
 @NgModule({
@@ -27,7 +30,9 @@ import { GridViewComponent } from './grid-view/grid-view.component';
     AppComponent,
     LoginComponent,
     FilterComponent,
-    GridViewComponent
+    GridViewComponent,
+    ExpandedViewComponent,
+    WatchedMovieComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +47,7 @@ import { GridViewComponent } from './grid-view/grid-view.component';
     MatCardModule,
     MatGridListModule,
     MatChipsModule,
+
 
   ],
   providers: [],
