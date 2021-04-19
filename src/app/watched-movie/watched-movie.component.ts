@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
 
 
 @Component({
@@ -12,6 +12,8 @@ export class WatchedMovieComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+  let watchedlist: Array<string>;
   }
 
 }
