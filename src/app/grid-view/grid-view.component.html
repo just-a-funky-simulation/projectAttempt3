@@ -1,14 +1,4 @@
-<p>
-  <mat-toolbar color="accent">
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span>Filtered Movies : Grid View</span>
-    <span class="example-spacer"></span>
 
-
-  </mat-toolbar>
-</p>
 
 <!--<mat-grid-list cols="4" rowHeight="2:3">-->
 <!--  <mat-grid-tile></mat-grid-tile>-->
@@ -28,22 +18,16 @@
 <!--  <mat-grid-tile>3</mat-grid-tile>-->
 <!--  <mat-grid-tile>4</mat-grid-tile>-->
 <!--</mat-grid-list>-->
-<div>
-<mat-grid-list cols="2" rowHeight="2:1">
-<mat-card>
-  ...
-  <img mat-card-image src="https://mymodernmet.com/wp/wp-content/uploads/2020/02/parasite-film-tribute-1.jpg" style="width:300px">
-
-  ...
-</mat-card>
+<mat-grid-list cols="4" rowHeight="100px">
+  <mat-grid-tile
+    *ngFor="let tile of tiles"
+    [colspan]="tile.cols"
+    [rowspan]="tile.rows"
+    [style.background]="tile.color">
+    <img src="movies.json">
+    {{tile.text}}
+  </mat-grid-tile>
 </mat-grid-list>
 
-<mat-grid-list cols="20" rowHeight="2:1" styl>
-  <mat-card>
-    ...
-    <img mat-card-image src="https://mymodernmet.com/wp/wp-content/uploads/2020/02/parasite-film-tribute-1.jpg" style="width:300px">
 
-    ...
-  </mat-card>
-</mat-grid-list>
-</div>
+

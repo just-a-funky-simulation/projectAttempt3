@@ -10,6 +10,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatListModule} from '@angular/material/list';
 
 
 
@@ -47,6 +48,7 @@ import { WatchedMovieComponent } from './watched-movie/watched-movie.component';
     MatCardModule,
     MatGridListModule,
     MatChipsModule,
+    MatListModule,
 
 
   ],
