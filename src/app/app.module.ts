@@ -25,6 +25,9 @@ import { GridViewComponent } from './grid-view/grid-view.component';
 import { ExpandedViewComponent } from './expanded-view/expanded-view.component';
 import { WatchedMovieComponent } from './watched-movie/watched-movie.component';
 
+// import { Database} from './database';
+
+
 
 @NgModule({
   declarations: [
@@ -34,6 +37,7 @@ import { WatchedMovieComponent } from './watched-movie/watched-movie.component';
     GridViewComponent,
     ExpandedViewComponent,
     WatchedMovieComponent
+
   ],
   imports: [
     BrowserModule,
@@ -49,7 +53,7 @@ import { WatchedMovieComponent } from './watched-movie/watched-movie.component';
     MatGridListModule,
     MatChipsModule,
     MatListModule,
-    MatTableModule,
+    MatTableModule
 
 
   ],

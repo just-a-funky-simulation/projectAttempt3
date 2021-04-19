@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as movies from '../../assets/movies.json';
+import movies from '../../assets/movies.json';
 
 export interface Tile {
   color: string;
@@ -16,18 +16,18 @@ export interface Tile {
 export class GridViewComponent implements OnInit {
 
  tiles: Tile[] = [
-  	{text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  		{text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  			{text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
-  				{text: 'Poster', cols: 1, rows: 5, color: 'lightpink'},
-  					{text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-            		{text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-            			{text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
-            				{text: 'Poster', cols: 1, rows: 5, color: 'lightpink'},
-            					{text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-                      		{text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-                      			{text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
-                      				{text: 'Poster', cols: 1, rows: 5, color: 'lightpink'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightpink'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightpink'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
+  {text: 'Poster', cols: 1, rows: 5, color: 'lightpink'}
 
 
   ]

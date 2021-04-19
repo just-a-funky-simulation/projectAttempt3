@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import movies from '../../assets/movies.json';
 
 export interface Tile {
   color: string;
@@ -33,6 +34,7 @@ export class ExpandedViewComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
