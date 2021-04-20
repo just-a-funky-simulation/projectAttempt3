@@ -17,17 +17,17 @@ export interface Tile {
 export class ExpandedViewComponent implements OnInit {
 
   tiles: Tile[] = [
-  	{text: movies[400].genre, cols: 1, rows: 1, color: 'lightpink'},
+  	{text: 'genre -- broken', cols: 1, rows: 1, color: 'lightpink'}, //movies[].genre breaks the entire tile, Split enteries,dont read as one string?
 
-       {text: movies[400].title, cols: 2, rows: 1, color: 'lightgreen'},
+       {text: movies[390].title, cols: 2, rows: 1, color: 'lightgreen'},
 
-      {text: movies[400].runTime  , cols: 1, rows: 1, color: '#DDBDF1'},
+      {text: movies[390].runTime, cols: 1, rows: 1, color: '#DDBDF1'},
 
-      {text: 'Poster', cols: 2, rows: 7, color: 'lightblue'},
-      {text: movies[400].description, cols: 2, rows: 7, color: 'yellow'},
+      {text: movies[390].poster, cols: 2, rows: 7, color: 'lightblue'},
+      {text: movies[390].description, cols: 2, rows: 7, color: 'yellow'},
 
       {text: 'Seen', cols: 1, rows: 1, color: 'green'},
-      {text: 'Watch', cols: 2, rows: 1, color: 'indigo'},
+      {text: movies[390].watched, cols: 2, rows: 1, color: 'indigo'},
       {text: 'Leave', cols: 1, rows: 1, color: 'pink'}
   ]
 
