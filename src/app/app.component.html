@@ -1,30 +1,54 @@
-
 <p>
   <mat-toolbar color="primary">
     <mat-icon>search</mat-icon>
-    <br>
+    <br />
     <span>Movie Finder</span>
-    <br>
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <br />
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
       <mat-icon>filter_list</mat-icon>
     </button>
-    <a mat-button href="filter.component.html" target="_blank">Filter</a>
+    <a mat-button routerLink="filter">Filter </a>
 
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
       <mat-icon>list</mat-icon>
     </button>
-    <a mat-button href="watched-movie.component.html" target="_blank">Watched List</a>
+    <a mat-button routerLink="watched">Watched List</a>
+
+
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>list</mat-icon>
+    </button>
+    <a mat-button routerLink="expanded">Debug Expanded</a>
+
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+    >
+      <mat-icon>list</mat-icon>
+    </button>
+    <a mat-button routerLink="grid">Debug Grid</a>
+
 
     <span class="example-spacer"></span>
   </mat-toolbar>
 </p>
 
+<router-outlet> </router-outlet>
 
-
-
-
-
-<app-filter hidden></app-filter>
+<!-- <app-filter hidden></app-filter>
 <app-grid-view hidden></app-grid-view>
-<app-expanded-view > </app-expanded-view>
-<app-watched-movie hidden></app-watched-movie>
+<app-expanded-view> </app-expanded-view>
+<app-watched-movie hidden></app-watched-movie> -->
