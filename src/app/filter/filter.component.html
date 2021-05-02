@@ -8,49 +8,51 @@
 <div style="text-align: center;">
   <h1>Filter Movies</h1>
   <h2>Genre:</h2>
-  <div style=" margin-right: 25%; margin-left: 25%;">
-    <button mat-raised-button color="accent">Action</button>
-    <button mat-raised-button color="accent">Adventure</button>
-    <button mat-raised-button color="accent">Animation</button>
-    <button mat-raised-button color="accent">Biography</button>
-    <button mat-raised-button color="accent">Comedy</button>
-    <button mat-raised-button color="accent">Crime</button>
-    <button mat-raised-button color="accent">Documentary</button>
-    <button mat-raised-button color="accent">Drama</button>
-    <button mat-raised-button color="accent">Fantasy</button>
-    <button mat-raised-button color="accent">History</button>
-    <button mat-raised-button color="accent">Horror</button>
-    <button mat-raised-button color="accent">Mystery</button>
-    <button mat-raised-button color="accent">Romance</button>
-    <button mat-raised-button color="accent">Sci-Fi</button>
-    <button mat-raised-button color="accent">Short</button>
-    <button mat-raised-button color="accent">Thriller</button>
-    <button mat-raised-button color="accent">War</button>
-    <button mat-raised-button color="accent">Western</button>
-  </div>
+  <mat-button-toggle-group [(value)]="genre" style=" margin-right: 25%; margin-left: 25%;">
+    <mat-button-toggle value="Action">Action</mat-button-toggle>
+    <mat-button-toggle value="Adventure">Adventure</mat-button-toggle>
+    <mat-button-toggle value="Animation"> Animation</mat-button-toggle>
+    <mat-button-toggle value="Biography"> Biography</mat-button-toggle>
+    <mat-button-toggle value="Comedy"> Comedy</mat-button-toggle>
+    <mat-button-toggle value="Crime"> Crime</mat-button-toggle>
+    <mat-button-toggle value="Documentary"> Documentary</mat-button-toggle>
+    <mat-button-toggle value="Drama"> Drama</mat-button-toggle>
+    <mat-button-toggle value="Fantasy"> Fantasy</mat-button-toggle>
+    <mat-button-toggle value="History"> History</mat-button-toggle>
+    <mat-button-toggle value="Horror"> Horror</mat-button-toggle>
+    <mat-button-toggle value="Mystery"> Mystery</mat-button-toggle>
+    <mat-button-toggle value="Romance"> Romance</mat-button-toggle>
+    <mat-button-toggle value="Sci-Fi"> Sci-Fi</mat-button-toggle>
+    <mat-button-toggle value="Short"> Short</mat-button-toggle>
+    <mat-button-toggle value="Thriller"> Thriller</mat-button-toggle>
+    <mat-button-toggle value="War"> War</mat-button-toggle>
+    <mat-button-toggle value="Western"> Western</mat-button-toggle>
+  </mat-button-toggle-group>
 
   <br>
   <br>
   <h2>Year:</h2>
-  <mat-slider style="width:500px" thumbLabel min="1900" max="2020" step="10" value="0"></mat-slider>
+  <mat-slider style="width:500px" thumbLabel min="1900" max="2020" step="10" value="0"
+              [(value)]="year" (change)="debug()"></mat-slider>
   <br>
   <h2>Rating:</h2>
-  <mat-slider style="width:500px" thumbLabel min="0" max="9.5" step="0.5" value="0"></mat-slider>
+  <mat-slider style="width:500px" thumbLabel min="0" max="9.5" step="0.5" value="0"
+              [(value)]="rating" (change)="debug()"></mat-slider>
   <br>
 
   <div>
     <h2>Approximate Runtime:</h2>
-    <mat-radio-group class="alligngood">
-      <mat-radio-button value="1"> 1 hour </mat-radio-button>
+    <mat-button-toggle-group class="alligngood" [(value)]="runtime">
+      <mat-button-toggle value="1">  < 1 hour </mat-button-toggle>
       <br>
-      <mat-radio-button value="2">1 hour </mat-radio-button>
+      <mat-button-toggle value="2">1 hour </mat-button-toggle>
       <br>
-      <mat-radio-button value="3">1.5 hours</mat-radio-button>
+      <mat-button-toggle value="3">1.5 hours</mat-button-toggle>
       <br>
-      <mat-radio-button value="4">2 + hours</mat-radio-button>
-    </mat-radio-group>
+      <mat-button-toggle value="4">2 + hours</mat-button-toggle>
+    </mat-button-toggle-group>
   </div>
   <div style="colour:grey; width:60px; height:60px"></div>
-  <button mat-raised-button color="primary" style="padding-left:50px;padding-right:50px;">Filter</button>
+  <button mat-raised-button color="primary" style="padding-left:50px;padding-right:50px;" (click)="blah()">Filter</button>
 
 </div>

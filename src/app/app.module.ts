@@ -13,6 +13,8 @@ import { MatRadioModule } from "@angular/material/radio";
 import { MatListModule } from "@angular/material/list";
 import { MatTableModule } from "@angular/material/table";
 import { RouterModule, Routes } from "@angular/router";
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+
 
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -59,6 +61,8 @@ const appRoutes: Routes = [
     MatChipsModule,
     MatListModule,
     MatTableModule,
+    MatButtonToggleModule,
+
     // ROUTING
     RouterModule.forRoot(
       appRoutes

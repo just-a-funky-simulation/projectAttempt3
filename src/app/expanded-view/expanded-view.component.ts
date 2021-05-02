@@ -19,14 +19,14 @@ export class ExpandedViewComponent implements OnInit {
 row = 422;
 
   tiles: Tile[] = [
-  	{text: movies[this.row].genre, cols: 1, rows: 1, color: 'lightpink'},
+  	{text: 'genre', cols: 1, rows: 1, color: 'lightpink'},
 
-       {text: movies[this.row].title, cols: 2, rows: 1, color: 'lightgreen'},
+       {text: 'title', cols: 2, rows: 1, color: 'lightgreen'},
 
-      {text: movies[this.row].runTime, cols: 1, rows: 1, color: '#DDBDF1'},
+      {text: 'runtime', cols: 1, rows: 1, color: '#DDBDF1'},
 
       {text: 'Poster', cols: 2, rows: 7, color: 'lightblue'},
-      {text: movies[this.row].description, cols: 2, rows: 7, color: 'yellow'}
+      {text: 'descriptionn', cols: 2, rows: 7, color: 'yellow'}
 
   ]
 
