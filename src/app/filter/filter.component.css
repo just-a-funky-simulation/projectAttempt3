@@ -10,3 +10,12 @@ button{
   /* display: grid; */
   margin: 15px 0;
 }
+.container .cardWrap div{
+height: 300px;
+border:2px solid gray;
+}
+.centerallign{
+
+    margin-right: 1200px;
+
+}

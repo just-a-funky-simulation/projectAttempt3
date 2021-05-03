@@ -7,7 +7,13 @@
       [rowspan]="tile.rows"
       [style.background]="tile.color">
 
-      {{tile.text}}
+      <div *ngIf="tile.tile_type == 'text'">
+        {{tile.text}}
+      </div>
+      <div *ngIf="tile.tile_type == 'image'" align="center">
+        <img src="{{tile.url}}" width="70%" />
+      </div>
+
     </mat-grid-tile>
   </mat-grid-list>
 </div>

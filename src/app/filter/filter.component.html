@@ -1,13 +1,8 @@
-<h1>To Do
-  Download Flex Layout on app.module.ts
-</h1>
-<h1>Change tiles to responsive flex layout</h1>
-<h1>Npm Install Flex-Layout from /@whatever</h1>
-<h1>Maybe make a loading screen?</h1>
 
-<div style="text-align: center;">
+<div style="text-align: center;" >
   <h1>Filter Movies</h1>
   <h2>Genre:</h2>
+  <div class="centerallign">
   <mat-button-toggle-group [(value)]="genre" style=" margin-right: 25%; margin-left: 25%;">
     <mat-button-toggle value="Action">Action</mat-button-toggle>
     <mat-button-toggle value="Adventure">Adventure</mat-button-toggle>
@@ -28,7 +23,7 @@
     <mat-button-toggle value="War"> War</mat-button-toggle>
     <mat-button-toggle value="Western"> Western</mat-button-toggle>
   </mat-button-toggle-group>
-
+  </div>
   <br>
   <br>
   <h2>Year:</h2>
@@ -56,3 +51,8 @@
   <button mat-raised-button color="primary" style="padding-left:50px;padding-right:50px;" (click)="blah()">Filter</button>
 
 </div>
+
+
+
+
+

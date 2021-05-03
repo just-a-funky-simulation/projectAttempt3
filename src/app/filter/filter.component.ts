@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import movies from '../../assets/movies.json';
 
+
 @Component({
   selector: 'app-filter',
   templateUrl: './filter.component.html',

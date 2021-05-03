@@ -18,10 +18,10 @@ export class WatchedMovieComponent implements OnInit {
 row = 421;
 
   tiles: Tile[] = [
-  	{text: movies[415].title, cols: 4, rows: 1, color: 'lightpink'},
-  	{text: movies[425].title, cols: 4, rows: 1, color: 'lightpink'},
-  	{text: movies[400].title, cols: 4, rows: 1, color: 'lightpink'},
-  	{text: movies[405].title, cols: 4, rows: 1, color: 'lightpink'},
+  	{text: 'bklah', cols: 4, rows: 1, color: 'lightpink'},
+  	{text: 'text', cols: 4, rows: 1, color: 'lightpink'},
+  	{text: 'text', cols: 4, rows: 1, color: 'lightpink'},
+  	{text: 'text', cols: 4, rows: 1, color: 'lightpink'}
   ]
 
 
