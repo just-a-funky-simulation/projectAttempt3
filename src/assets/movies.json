@@ -4591,6 +4591,371 @@
       "Comedy",
       "Drama"
     ]
+  },
+  {
+    "id": "tt0073486",
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": "1975",
+    "runTime": "133",
+    "watched":false,
+    "description":"A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients.",
+    "poster":"https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY1200_CR88,0,630,1200_AL_.jpg",
+    "genre": [
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0102926",
+    "title": "The Silence of the Lambs",
+    "year": "1991",
+    "runTime": "118",
+    "watched":false,
+    "description":"A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+    "poster":"https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY1200_CR91,0,630,1200_AL_.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt1853728",
+    "title": "Django Unchained",
+    "year": "2012",
+    "runTime": "165",
+    "watched":false,
+    "description":"With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.",
+    "poster":"https://i.pinimg.com/736x/5d/ae/31/5dae317a634a7c7f339fdae2c9eedfc2--alternative-movie-posters-movie-tv.jpg",
+    "genre": [
+      "Drama",
+      "Western"
+    ]
+  },
+  {
+    "id": "tt0119698",
+    "title": "Princess Mononoke",
+    "year": "1997",
+    "runTime": "134",
+    "watched":false,
+    "description":"On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.",
+    "poster":"https://alternativemovieposters.com/wp-content/uploads/2018/01/frodesign_princess.jpg",
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "tt00078748",
+    "title": "Alien",
+    "year": "1979",
+    "runTime": "117",
+    "watched":false,
+    "description":"After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun.",
+    "poster":"https://i.pinimg.com/originals/64/b5/4e/64b54e169dd1d6dcf36f31a05288520d.jpg",
+    "genre": [
+      "Horror",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0017136",
+    "title": "Metropolis",
+    "year": "1927",
+    "runTime": "153",
+    "watched":false,
+    "description":"In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.",
+    "poster":"https://i.pinimg.com/originals/d6/0f/12/d60f120fe2992402936e37c95076c3dc.png",
+    "genre": [
+      "Drama",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0211915",
+    "title": "Amélie",
+    "year": "2001",
+    "runTime": "124",
+    "watched":false,
+    "description":"Amélie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
+    "poster":"https://m.media-amazon.com/images/M/MV5BMGM2ZmYyMTUtYzkxMC00MTc1LWI0NTUtNTIzZjc2YTM0YTdhXkEyXkFqcGdeQXVyMTMxODYzNjg@._V1_.jpg",
+    "genre": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  {
+    "id": "tt4003440",
+    "title": "The House That Jack Built",
+    "year": "2018",
+    "runTime": "152",
+    "watched":false,
+    "description":"The story follows Jack, a highly intelligent serial killer, over the course of twelve years, and depicts the murders that really develop his inner madman.",
+    "poster":"https://i.pinimg.com/originals/c0/b4/c1/c0b4c1759a0f3616bffa7563b784f683.jpg",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Horror"
+    ]
+  },
+  {
+    "id": "tt3501632",
+    "title": "Thor: Ragnarok",
+    "year": "2017",
+    "runTime": "130",
+    "watched":false,
+    "description":"Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
+    "poster":"https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_.jpg",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt1070874",
+    "title": "The Trial of the Chicago 7 ",
+    "year": "2020",
+    "runTime": "129",
+    "watched":false,
+    "description":"The story of 7 people on trial stemming from various charges surrounding the uprising at the 1968 Democratic National Convention in Chicago, Illinois.",
+    "poster":"https://m.media-amazon.com/images/M/MV5BYjYzOGE1MjUtODgyMy00ZDAxLTljYTgtNzk0Njg2YWQwMTZhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+    "genre": [
+      "Drama",
+      "History",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt10288566",
+    "title": "Another Round",
+    "year": "2020",
+    "runTime": "117",
+    "watched":false,
+    "description":"Four high school teachers consume alcohol on a daily basis to see how it affects their social and professional lives.",
+    "poster":"https://www.joblo.com/assets/images/joblo/posters/2020/12/another-round-poster.jpg",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt7979580",
+    "title": "The Mitchells vs the Machines",
+    "year": "2021",
+    "runTime": "113",
+    "watched":false,
+    "description":"A quirky, dysfunctional family's road trip is upended when they find themselves in the middle of the robot apocalypse and suddenly become humanity's unlikeliest last hope.",
+    "poster":"https://m.media-amazon.com/images/M/MV5BMjdkZjNjNDItYzc4MC00NTkxLTk1MWEtY2UyZjY5MjUwNDNkXkEyXkFqcGdeQXVyMTA1OTcyNDQ4._V1_.jpg",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ]
+  },
+  {
+    "id": "tt7131622",
+    "title": "Once Upon a Time... In Hollywood",
+    "year": "2019",
+    "runTime": "161",
+    "watched":false,
+    "description":"A faded television actor and his stunt double strive to achieve fame and success in the final years of Hollywood's Golden Age in 1969 Los Angeles.",
+    "poster":"https://i.pinimg.com/originals/ef/29/cf/ef29cf914c28d1071269dfdb9cd5544d.jpg",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt8946378",
+    "title": "Knives Out",
+    "year": "2019",
+    "runTime": "130",
+    "watched":false,
+    "description":"A detective investigates the death of a patriarch of an eccentric, combative family.",
+    "poster":"https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_.jpg",
+    "genre": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ]
+  },
+  {
+    "id": "tt0088763",
+    "title": "Back to the Future",
+    "year": "1985",
+    "runTime": "116",
+    "watched":false,
+    "description":"Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown.",
+    "poster":"https://resizing.flixster.com/JABjnn-KhoEu2-4aS3XNAyGzeGk=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzJiYTdhYWRiLWE2ZmItNGU4ZS05ZmNlLWFjNTBlMjM2MDQ3MS53ZWJw",
+    "genre": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ]
+  },
+  {
+    "id": "tt0446029",
+    "title": "Scott Pilgrim vs. the World",
+    "year": "2010",
+    "runTime": "112",
+    "watched":false,
+    "description":"In a magically realistic version of Toronto, a young man must defeat his new girlfriend's seven evil exes one by one in order to win her heart.",
+    "poster":"https://cdn.shopify.com/s/files/1/0037/8008/3782/products/IMG_2315-862654.jpg?v=1611688258",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "tt2554274",
+    "title": "Crimson Peak",
+    "year": "2015",
+    "runTime": "119",
+    "watched":false,
+    "description":"In the aftermath of a family tragedy, an aspiring author is torn between love for her childhood friend and the temptation of a mysterious outsider. Trying to escape the ghosts of her past, she is swept away to a house that breathes, bleeds - and remembers.",
+    "poster":"https://alternativemovieposters.com/wp-content/uploads/2015/07/guydavies_crimson.jpg",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ]
+  },
+  {
+    "id": "tt0103874",
+    "title": "Dracula",
+    "year": "1992",
+    "runTime": "128",
+    "watched":false,
+    "description":"The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker's fiancée Mina Murray and inflict havoc in the foreign land.",
+    "poster":"https://alternativemovieposters.com/wp-content/uploads/2016/04/szabo_dracula.jpg",
+    "genre": [
+      "Horror"
+    ]
+  },
+  {
+    "id": "tt5606664",
+    "title": "Doctor Sleep",
+    "year": "2019",
+    "runTime": "152",
+    "watched":false,
+    "description":"Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
+    "poster":"https://alternativemovieposters.com/wp-content/uploads/2020/02/mikelee_doctorsleep.jpg",
+    "genre": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ]
+  },
+  {
+    "id": "tt0387564",
+    "title": "Saw",
+    "year": "2004",
+    "runTime": "103",
+    "watched":false,
+    "description":"Two strangers awaken in a room with no recollection of how they got there, and soon discover they're pawns in a deadly game perpetrated by a notorious serial killer.",
+    "poster":"https://alternativemovieposters.com/wp-content/uploads/2012/12/sawbg.jpg",
+    "genre": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ]
+  },
+  {
+    "id": "tt0070047",
+    "title": "The Exorcist",
+    "year": "1973",
+    "runTime": "122",
+    "watched":false,
+    "description":"When a 12-year-old girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
+    "poster":"https://alternativemovieposters.com/wp-content/uploads/2020/08/LukeHeadland_Exorcist.jpg",
+    "genre": [
+      "Horror"
+    ]
+  },
+  {
+    "id": "tt0360486",
+    "title": "Constantine",
+    "year": "2005",
+    "runTime": "121",
+    "watched":false,
+    "description":"Supernatural exorcist and demonologist John Constantine helps a policewoman prove her sister's death was not a suicide, but something more.",
+    "poster":"https://alternativemovieposters.com/wp-content/uploads/2020/09/NeilDavies_Constantine.jpg",
+    "genre": [
+      "Action",
+      "Fantasy",
+      "Horror"
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "year": "",
+    "runTime": "",
+    "watched":false,
+    "description":".",
+    "poster":"",
+    "genre": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "year": "",
+    "runTime": "",
+    "watched":false,
+    "description":".",
+    "poster":"",
+    "genre": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "year": "",
+    "runTime": "",
+    "watched":false,
+    "description":".",
+    "poster":"",
+    "genre": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "year": "",
+    "runTime": "",
+    "watched":false,
+    "description":".",
+    "poster":"",
+    "genre": [
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "id": "",
+    "title": "",
+    "year": "",
+    "runTime": "",
+    "watched":false,
+    "description":".",
+    "poster":"",
+    "genre": [
+      "",
+      "",
+      ""
+    ]
   }
-
 ]

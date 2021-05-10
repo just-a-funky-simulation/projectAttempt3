@@ -13,9 +13,8 @@ import { MatRadioModule } from "@angular/material/radio";
 import { MatListModule } from "@angular/material/list";
 import { MatTableModule } from "@angular/material/table";
 import { RouterModule, Routes } from "@angular/router";
-import {MatButtonToggleModule} from '@angular/material/button-toggle';
-
-
+import { MatButtonToggleModule } from "@angular/material/button-toggle";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
@@ -24,17 +23,15 @@ import { FilterComponent } from "./filter/filter.component";
 import { GridViewComponent } from "./grid-view/grid-view.component";
 import { ExpandedViewComponent } from "./expanded-view/expanded-view.component";
 import { WatchedMovieComponent } from "./watched-movie/watched-movie.component";
-import { FunctionsService } from './functions.service';
-
+import { FunctionsService } from "./functions.service";
 
 // import { Database} from './database';
 // ROUTING LINKS
 const appRoutes: Routes = [
   { path: "filter", component: FilterComponent },
   { path: "watched", component: WatchedMovieComponent },
-  { path: "grid", component: GridViewComponent},
-  { path: "expanded", component: ExpandedViewComponent},
-
+  { path: "grid", component: GridViewComponent },
+  { path: "expanded", component: ExpandedViewComponent }
 ];
 
 @NgModule({
@@ -62,7 +59,8 @@ const appRoutes: Routes = [
     MatListModule,
     MatTableModule,
     MatButtonToggleModule,
-
+    ReactiveFormsModule,
+    FormsModule,
 
     // ROUTING
     RouterModule.forRoot(

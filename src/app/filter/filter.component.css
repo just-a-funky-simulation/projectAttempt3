@@ -1,21 +1,22 @@
-button{
-   margin-top: 5px;
-   margin-bottom: 5px;
-   margin-right: 5px;
-   margin-left: 5px;
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 .alligngood {
-
   display: inline-grid;
   /* display: grid; */
   margin: 15px 0;
 }
-.container .cardWrap div{
-height: 300px;
-border:2px solid gray;
+.container .cardWrap div {
+  height: 300px;
+  border: 2px solid gray;
 }
-.centerallign{
+.centerallign {
+  margin-right: 1200px;
+}
 
-    margin-right: 1200px;
-
+.wrapper {
+  margin: 15px;
 }

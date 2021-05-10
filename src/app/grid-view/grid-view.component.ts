@@ -1,41 +1,47 @@
-import { Component, OnInit } from '@angular/core';
-import movies from '../../assets/movies.json';
+import { Component, OnInit } from "@angular/core";
+import movies from "../../assets/movies.json";
+import { Router, ActivatedRoute } from "@angular/router";
+import { FunctionsService } from "../functions.service";
 
 export interface Tile {
+  tile_type: string;
   color: string;
   cols: number;
   rows: number;
-  text: string;
+  text?: string;
+  url?: string;
 }
 
 @Component({
-  selector: 'app-grid-view',
-  templateUrl: './grid-view.component.html',
-  styleUrls: ['./grid-view.component.css']
+  selector: "app-grid-view",
+  templateUrl: "./grid-view.component.html",
+  styleUrls: ["./grid-view.component.css"]
 })
 export class GridViewComponent implements OnInit {
+  recordId;
+  display;
 
- tiles: Tile[] = [
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightpink'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightpink'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightblue'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightgreen'},
-  {text: 'Poster', cols: 1, rows: 5, color: 'lightpink'}
+   selected_movie = movies[425];
 
-
-  ]
-  constructor() { }
-
-  ngOnInit(): void {
-  console.log("movies.json:");
-  console.debug(movies);
+  constructor(
+    private routeID: ActivatedRoute,
+    private route: Router,
+    private fs: FunctionsService
+  ) {
+    this.display = this.fs.getFilter();
   }
 
+  ngOnInit(): void {
+    // recordId is the 'index' value of the record eg 0 or 1 from Students Database
+    this.recordId = this.routeID.snapshot.paramMap.get("filter");
+    console.log("Here " + this.recordId[8]);
+  }
+
+  tiles: Tile[] = [
+          {tile_type:"image", url: this.selected_movie.poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
+           {tile_type:"image", url: movies[421].poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
+            {tile_type:"image", url: movies[422].poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
+             {tile_type:"image", url: movies[423].poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
+
+  ];
 }

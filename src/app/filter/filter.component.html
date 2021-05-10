@@ -1,58 +1,92 @@
+<div class="wrapper">
+  <form flex [formGroup]="filterForm" (ngSubmit)="submit()">
+    <h1>Filter Movies</h1>
+    <h2>Genre:</h2>
+    <div class="centerallign">
+      <mat-button-toggle-group
+        style=" margin-right: 25%; margin-left: 25%;"
+        formControlName="genre"
+      >
+        <mat-button-toggle value="Action">Action</mat-button-toggle>
+        <mat-button-toggle value="Adventure">Adventure</mat-button-toggle>
+        <mat-button-toggle value="Animation"> Animation</mat-button-toggle>
+        <mat-button-toggle value="Biography"> Biography</mat-button-toggle>
+        <mat-button-toggle value="Comedy"> Comedy</mat-button-toggle>
+        <mat-button-toggle value="Crime"> Crime</mat-button-toggle>
+        <mat-button-toggle value="Documentary"> Documentary</mat-button-toggle>
+        <mat-button-toggle value="Drama"> Drama</mat-button-toggle>
+        <mat-button-toggle value="Fantasy"> Fantasy</mat-button-toggle>
+        <mat-button-toggle value="History"> History</mat-button-toggle>
+        <mat-button-toggle value="Horror"> Horror</mat-button-toggle>
+        <mat-button-toggle value="Mystery"> Mystery</mat-button-toggle>
+        <mat-button-toggle value="Romance"> Romance</mat-button-toggle>
+        <mat-button-toggle value="Sci-Fi"> Sci-Fi</mat-button-toggle>
+        <mat-button-toggle value="Short"> Short</mat-button-toggle>
+        <mat-button-toggle value="Thriller"> Thriller</mat-button-toggle>
+        <mat-button-toggle value="War"> War</mat-button-toggle>
+        <mat-button-toggle value="Western"> Western</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <br />
+    <br />
+    <h2>Year:</h2>
+    <mat-slider
+      style="width:500px"
+      thumbLabel
+      min="1900"
+      max="2020"
+      step="10"
+      value="0"
+      formControlName="year"
+    ></mat-slider>
 
-<div style="text-align: center;" >
-  <h1>Filter Movies</h1>
-  <h2>Genre:</h2>
-  <div class="centerallign">
-  <mat-button-toggle-group [(value)]="genre" style=" margin-right: 25%; margin-left: 25%;">
-    <mat-button-toggle value="Action">Action</mat-button-toggle>
-    <mat-button-toggle value="Adventure">Adventure</mat-button-toggle>
-    <mat-button-toggle value="Animation"> Animation</mat-button-toggle>
-    <mat-button-toggle value="Biography"> Biography</mat-button-toggle>
-    <mat-button-toggle value="Comedy"> Comedy</mat-button-toggle>
-    <mat-button-toggle value="Crime"> Crime</mat-button-toggle>
-    <mat-button-toggle value="Documentary"> Documentary</mat-button-toggle>
-    <mat-button-toggle value="Drama"> Drama</mat-button-toggle>
-    <mat-button-toggle value="Fantasy"> Fantasy</mat-button-toggle>
-    <mat-button-toggle value="History"> History</mat-button-toggle>
-    <mat-button-toggle value="Horror"> Horror</mat-button-toggle>
-    <mat-button-toggle value="Mystery"> Mystery</mat-button-toggle>
-    <mat-button-toggle value="Romance"> Romance</mat-button-toggle>
-    <mat-button-toggle value="Sci-Fi"> Sci-Fi</mat-button-toggle>
-    <mat-button-toggle value="Short"> Short</mat-button-toggle>
-    <mat-button-toggle value="Thriller"> Thriller</mat-button-toggle>
-    <mat-button-toggle value="War"> War</mat-button-toggle>
-    <mat-button-toggle value="Western"> Western</mat-button-toggle>
-  </mat-button-toggle-group>
-  </div>
-  <br>
-  <br>
-  <h2>Year:</h2>
-  <mat-slider style="width:500px" thumbLabel min="1900" max="2020" step="10" value="0"
-              [(value)]="year" (change)="debug()"></mat-slider>
-  <br>
-  <h2>Rating:</h2>
-  <mat-slider style="width:500px" thumbLabel min="0" max="9.5" step="0.5" value="0"
-              [(value)]="rating" (change)="debug()"></mat-slider>
-  <br>
+    <!-- <mat-slider
+        formControlName="sliderValue"
+        class="example-margin"
+        disabled="false"
+        invert="false"
+        max="200"
+        min="1"
+        step="1"
+        thumbLabel="true"
+        tickInterval="10"
+        vertical="false">
+    </mat-slider> -->
 
-  <div>
-    <h2>Approximate Runtime:</h2>
-    <mat-button-toggle-group class="alligngood" [(value)]="runtime">
-      <mat-button-toggle value="1">  < 1 hour </mat-button-toggle>
-      <br>
-      <mat-button-toggle value="2">1 hour </mat-button-toggle>
-      <br>
-      <mat-button-toggle value="3">1.5 hours</mat-button-toggle>
-      <br>
-      <mat-button-toggle value="4">2 + hours</mat-button-toggle>
-    </mat-button-toggle-group>
-  </div>
-  <div style="colour:grey; width:60px; height:60px"></div>
-  <button mat-raised-button color="primary" style="padding-left:50px;padding-right:50px;" (click)="onFilterClick()">Filter</button>
+    <br />
+    <h2>Rating:</h2>
+    <mat-slider
+      style="width:500px"
+      thumbLabel
+      min="0"
+      max="9.5"
+      step="0.5"
+      value="0"
+      formControlName="rating"
+    ></mat-slider>
+    <br />
 
+    <div>
+      <h2>Approximate Runtime:</h2>
+      <mat-button-toggle-group class="alligngood" formControlName="runtime">
+        <mat-button-toggle value="1"> < 1 hour </mat-button-toggle>
+        <br />
+        <mat-button-toggle value="2">1 hour </mat-button-toggle>
+        <br />
+        <mat-button-toggle value="3">1.5 hours</mat-button-toggle>
+        <br />
+        <mat-button-toggle value="4">2 + hours</mat-button-toggle>
+      </mat-button-toggle-group>
+    </div>
+    <div style="colour:grey; width:60px; height:60px"></div>
+    <button mat-raised-button color="warn">submit</button>
+
+    <!-- <button
+      mat-raised-button
+      color="primary"
+      style="padding-left:50px;padding-right:50px;"
+    >
+      Filter
+    </button>-->
+  </form>
 </div>
-
-
-
-
-
