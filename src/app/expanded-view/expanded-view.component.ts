@@ -20,15 +20,15 @@ export class ExpandedViewComponent implements OnInit {
 
 row = 422;
 
-  selected_movie = movies[425];
+  selected_movie = movies[412];
 
 
   tiles: Tile[] = [
-      {tile_type:"text", text: this.selected_movie.genre.join(", "), cols: 1, rows: 1, color: 'lightpink'},
-      {tile_type:"text", text: this.selected_movie.title, cols: 2, rows: 1, color: 'Lavender'},
-      {tile_type:"text", text: 'this.selected_movie.rating', cols: 1, rows: 1, color: 'LightSeaGreen'},
-      {tile_type:"image", url: this.selected_movie.poster, cols: 2, rows: 7, color: 'LightSkyBlue'},
-      {tile_type:"text", text: this.selected_movie.description, cols: 2, rows: 7, color: 'PeachPuff'},
+      {tile_type:"text", text: this.selected_movie.genre.join(", "), cols: 1, rows: 1, color: this.selected_movie.secondcolour},
+      {tile_type:"text", text: this.selected_movie.title, cols: 2, rows: 1, color: this.selected_movie.titlecolour},
+      {tile_type:"text", text: 'this.selected_movie.rating', cols: 1, rows: 1, color: this.selected_movie.secondcolour},
+      {tile_type:"image", url: this.selected_movie.poster, cols: 2, rows: 7, color: this.selected_movie.colour},
+      {tile_type:"text", text: this.selected_movie.description, cols: 2, rows: 7, color: this.selected_movie.descriptioncolour},
 
   ]
 
