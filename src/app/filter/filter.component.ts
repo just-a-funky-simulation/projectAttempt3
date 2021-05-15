@@ -33,15 +33,19 @@ export class FilterComponent implements OnInit {
   }
 
   ngOnInit() {
+    console.log("FilterComponent.ngOnInit")
     this.filterForm = this.fb.group({
       genre: [null],
       year: [null],
       rating: [null],
       runtime: [null]
     });
+
+    localStorage.setItem("filterResult", JSON.stringify([]));
   }
 
   submit(): void {
+    console.log("Filter.submit()");
     this.fs.addFilterResult(this.filterForm.value);
 
     // this.route.navigate(["grid/this.filterForm.value"]);
@@ -51,47 +55,4 @@ export class FilterComponent implements OnInit {
   }
 } // end class
 
-// onFilterClick(){
-//   console.log(this.rating, this.runtime, this.year, this.genre);
 
-//   let selected_runtime_min = 0;
-//   let selected_runtime_max = 0;
-
-//   switch(this.runtime){
-//     case "1":
-//       selected_runtime_min=0;
-//       selected_runtime_max=60;
-//       break;
-//     case "2":
-//       selected_runtime_min=60;
-//       selected_runtime_max=90;
-//       break;
-//     case "3":
-//       selected_runtime_min=90;
-//       selected_runtime_max=120;
-//       break;
-//     case "4":
-//       selected_runtime_min=120;
-//       selected_runtime_max= Number.MAX_SAFE_INTEGER;
-//       break;
-//   }
-
-//   let year_min = this.year - 5;
-//   let year_max = this.year + 5;
-
-//   let rating_min = this.rating;
-//   let rating_max = 10;
-
-//   let filtered_movies = this.functionsService.getFiltered(movies,
-//       [this.genre],
-//       selected_runtime_min,
-//       selected_runtime_max,
-//       year_min, year_max,
-//       rating_min, rating_max)
-
-//   console.log("Found "+filtered_movies.size()+" movies matching the filter");
-// }
-
-// debug(){
-//   console.log(this.rating, this.runtime, this.year, this.genre);
-// }

@@ -1,4 +1,4 @@
-
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 <div style="padding: 10px;">
   <mat-grid-list cols="4" rowHeight="100px" >
     <mat-grid-tile
@@ -7,11 +7,11 @@
       [rowspan]="tile.rows"
       [style.background]="tile.color">
 
-      <div *ngIf="tile.tile_type == 'text'">
+      <div *ngIf="tile.tile_type == 'text'" style="  font-size: 150%;  padding: 20px; font-family: 'Roboto'; font-weight: 500;line-height: 36px;">
         {{tile.text}}
       </div>
-      <div *ngIf="tile.tile_type == 'image'" align="center">
-        <img src="{{tile.url}}" width="70%" />
+      <div *ngIf="tile.tile_type == 'image'" align="center" >
+        <img src="{{tile.url}}" style=' width: 80%; height: 80%; object-fit: contain;' />
       </div>
 
     </mat-grid-tile>

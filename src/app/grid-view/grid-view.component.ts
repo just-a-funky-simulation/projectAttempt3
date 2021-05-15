@@ -22,6 +22,7 @@ export class GridViewComponent implements OnInit {
   display;
 
    selected_movie = movies[425];
+  tiles: Tile[];
 
   constructor(
     private routeID: ActivatedRoute,
@@ -34,14 +35,15 @@ export class GridViewComponent implements OnInit {
   ngOnInit(): void {
     // recordId is the 'index' value of the record eg 0 or 1 from Students Database
     this.recordId = this.routeID.snapshot.paramMap.get("filter");
-    console.log("Here " + this.recordId[8]);
+//     console.log("Here " + this.recordId[8]);
+
+      let foundMovies = JSON.parse(localStorage.getItem("filterResult"));
+      console.log("foundMovies 2:", foundMovies);
+      this.tiles = foundMovies.map(movie => {
+            return {"tile_type":"image", "url": movie.poster, "cols": 1, "rows": 5, "color": movie.colour}
+          }
+      );
   }
 
-  tiles: Tile[] = [
-          {tile_type:"image", url: this.selected_movie.poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
-           {tile_type:"image", url: movies[421].poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
-            {tile_type:"image", url: movies[422].poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
-             {tile_type:"image", url: movies[423].poster, cols: 1, rows: 5, color: 'LightSkyBlue'},
 
-  ];
 }

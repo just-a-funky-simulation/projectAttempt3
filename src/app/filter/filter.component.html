@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <form flex [formGroup]="filterForm" (ngSubmit)="submit()">
+  <form flex [formGroup]="filterForm" (ngSubmit)="submit()" >
     <h1>Filter Movies</h1>
     <h2>Genre:</h2>
     <div class="centerallign">
@@ -79,7 +79,8 @@
       </mat-button-toggle-group>
     </div>
     <div style="colour:grey; width:60px; height:60px"></div>
-    <button mat-raised-button color="warn">submit</button>
+    <button mat-raised-button color="warn" >submit</button>
+<!--    <a mat-raised-button color="warn" routerLink="/grid">submit</a>-->
 
     <!-- <button
       mat-raised-button

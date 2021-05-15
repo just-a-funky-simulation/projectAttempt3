@@ -20,7 +20,7 @@ export class ExpandedViewComponent implements OnInit {
 
 row = 422;
 
-  selected_movie = movies[412];
+  selected_movie = movies[25];
 
 
   tiles: Tile[] = [

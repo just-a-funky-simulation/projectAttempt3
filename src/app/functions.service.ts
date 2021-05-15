@@ -17,22 +17,49 @@ export class FunctionsService {
     return data;
   }
 
+
+  isMovieMatchingRuntimeFilter(movie, desiredRuntimeGroup){
+      let minRt=0;
+      let maxRt=Number.MAX_VALUE;
+
+      switch(desiredRuntimeGroup){
+        case "1":
+          minRt=0;
+          maxRt=59;
+          break;
+        case "2":
+          minRt=60;
+          maxRt=85;
+          break;
+        case "3":
+          minRt=86;
+          maxRt=119;
+          break;
+        case "4":
+          minRt=120;
+          maxRt=Number.MAX_VALUE;
+          break;
+      }//switch end
+      console.log(desiredRuntimeGroup, minRt, maxRt);
+      return (movie.runTime >= minRt && movie.runTime <= maxRt)
+  }
+
+
   addFilterResult(filterForm) {
-    console.log(
-      "1 " + movies.length + " 2 " + movies[2].year + "  3 " + filterForm.year
-    );
+      let result = movies.filter(iterator =>
+          (filterForm.genre==null || iterator.genre.includes(filterForm.genre))
+          &&
+          (filterForm.year==null || (iterator.year >= filterForm.year-5 && iterator.year <= filterForm.year+5 ))
+//           &&
+         //  (filterForm.rating==null || iterator.rating==null || (iterator.rating >= filterForm.rating-1 && iterator.rating <= filterForm.rating+1))
+          &&
+          (filterForm.runtime ==null || this.isMovieMatchingRuntimeFilter(iterator, filterForm.runtime) )
 
-    let index = 0;
-    while (index <= movies.length - 1) {
-      if (filterForm.year == movies[index].year) {
-        console.log("movie: " + movies[index].year);
-      }
-      index = index + 1;
-    }
+      );
+      console.log("foundMovies 1:", result);
 
-    // let data = JSON.parse(localStorage.getItem("filterResult"));
-    // data.push(filterForm);
-    // localStorage.setItem("filterResult", JSON.stringify(data));
+      console.log(result);
+      localStorage.setItem("filterResult", JSON.stringify(result));
   }
 
   getFilter() {
@@ -51,15 +78,15 @@ export class FunctionsService {
         "  " +
         filterForm.runtime
     );
-    ///Gets return data from Filter screen and moves it into a seperate array that clears itself when User goes back to
-    ///main menu?
-    //TODO
-    // return sorted_array;
-  }
+
+  }//getFiltered
+clearFiltered(){
+    localStorage.setItem("filterResult", JSON.stringify([]));
+}//end clear
 }
 /// FUNCTIONS TO TODO --- if watched add to watched list, Watched Button add to Watched List
 /// Filter movies by selected filters
 /// Create new array from filtered movies
 /// add images and info to tiles
 /// on new filter click clear array
-/// find average colour of image for Background? (optional)
+
