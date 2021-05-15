@@ -7,7 +7,7 @@ button {
 .alligngood {
   display: inline-grid;
   /* display: grid; */
-  margin: 15px 0;
+  margin: 15px;
 }
 .container .cardWrap div {
   height: 300px;
@@ -18,5 +18,33 @@ button {
 }
 
 .wrapper {
-  margin: 15px;
+ border-radius: 25px;
+  background: #673AB7;
+  padding:25px;
+
+   flex-wrap: wrap;
 }
+
+
+
+.slider1{
+width: 500px;
+align:left;
+}
+.slider2{
+width: 500px;
+align:right;
+}
+.genre{
+width: 30%;
+}
+
+.runtime{
+flex-wrap: wrap;
+ align-content: center;
+}
+mat-button-toggle{
+margin: 5px;
+border-radius: 25px;
+}
+

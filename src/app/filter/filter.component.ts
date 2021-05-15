@@ -26,7 +26,7 @@ export class FilterComponent implements OnInit {
   constructor(
     private fs: FunctionsService,
     private fb: FormBuilder,
-    private route: Router
+    private router: Router
   ) {
     // console.log("DI: ", functionsService);
     // this.functionsService = functionsService;
@@ -47,7 +47,7 @@ export class FilterComponent implements OnInit {
   submit(): void {
     console.log("Filter.submit()");
     this.fs.addFilterResult(this.filterForm.value);
-
+    this.router.navigateByUrl('/grid')
     // this.route.navigate(["grid/this.filterForm.value"]);
 
     // this.filterForm.reset();

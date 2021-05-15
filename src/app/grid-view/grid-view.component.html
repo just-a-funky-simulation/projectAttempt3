@@ -1,7 +1,5 @@
 
-<div *ngFor="let data of display; let i=index">
-  {{data.id}} - {{data.genre}} - {{data.runtime}} - {{data.year}}
-</div>
+
 
 
 
@@ -15,7 +13,7 @@
       [style.background]="tile.color">
 
       <div *ngIf="tile.tile_type == 'text'">
-        {{tile.text}}
+
       </div>
       <div *ngIf="tile.tile_type == 'image'" align="center">
         <img src="{{tile.url}}" width="100%" />
