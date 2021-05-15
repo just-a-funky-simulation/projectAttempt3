@@ -17,11 +17,13 @@ button {
   margin-right: 1200px;
 }
 
+
+
 .wrapper {
  border-radius: 25px;
   background: #673AB7;
   padding:25px;
-
+  margin-left: 55px;
    flex-wrap: wrap;
 }
 
@@ -45,6 +47,16 @@ flex-wrap: wrap;
 }
 mat-button-toggle{
 margin: 5px;
-border-radius: 25px;
+border-radius: 10px;
+margin-color: #673AB7;
+border-color: #673AB7;
 }
+.text{
+ color: white;
+ font-weight: 500;
+ align: center;
+}
+.button{
+align: center;
 
+}

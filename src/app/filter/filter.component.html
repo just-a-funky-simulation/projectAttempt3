@@ -1,8 +1,8 @@
-<div style="align-content: center; width: 100%;">
+<div style="align-content: center; width: 95%;">
 <div class="wrapper">
   <form flex [formGroup]="filterForm" (ngSubmit)="submit()" >
-    <h1>Filter Movies</h1>
-    <h2>Genre:</h2>
+    <h1 class="text">Filter Movies</h1>
+    <h2 class="text">Genre:</h2>
     <div >
       <mat-button-toggle-group formControlName="genre" >
         <mat-button-toggle value="Action">Action</mat-button-toggle>
@@ -27,7 +27,7 @@
     </div>
     <br />
     <br />
-    <h2>Year:</h2>
+    <h2 class="text"> Year:</h2>
     <mat-slider
      class="slider1"
       thumbLabel
@@ -52,7 +52,7 @@
     </mat-slider> -->
 
     <br />
-    <h2>Rating:</h2>
+    <h2 class="text">Rating:</h2>
     <mat-slider
       class="slider2"
       thumbLabel
@@ -65,7 +65,7 @@
     <br />
 
     <div>
-      <h2>Approximate Runtime:</h2>
+      <h2 class="text">Approximate Runtime:</h2>
       <mat-button-toggle-group formControlName="runtime" class="runtime">
         <mat-button-toggle value="1"> < 1 hour </mat-button-toggle>
         <br />
@@ -77,7 +77,7 @@
       </mat-button-toggle-group>
     </div>
     <div style="colour:grey; width:60px; height:60px"></div>
-    <button mat-raised-button color="warn" >submit</button>
+    <button mat-raised-button color="accent" class="button">submit</button>
 <!--    <a mat-raised-button color="warn" routerLink="/grid">submit</a>-->
 
     <!-- <button
