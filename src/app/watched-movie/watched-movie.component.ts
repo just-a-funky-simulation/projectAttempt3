@@ -29,7 +29,7 @@ row = 421;
     let watchedMovies = movies.filter(iterator => watchedIds.includes(iterator.id) );
 
     this.tiles = watchedMovies.map(iterator => {
-      return {text: iterator.title, cols: 2, rows: 1, color: iterator.descriptioncolour}
+      return {text: iterator.title, cols: 2, rows: 1, color: iterator.descriptioncolour || 'pink'}
     });
 
 

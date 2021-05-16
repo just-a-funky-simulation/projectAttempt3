@@ -102,9 +102,5 @@ export class FunctionsService {
   }
 
 }
-/// FUNCTIONS TO TODO --- if watched add to watched list, Watched Button add to Watched List
-/// Filter movies by selected filters
-/// Create new array from filtered movies
-/// add images and info to tiles
-/// on new filter click clear array
+
 
