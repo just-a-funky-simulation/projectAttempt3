@@ -10,6 +10,7 @@ export interface Tile {
   rows: number;
   text?: string;
   url?: string;
+  id: string;
 }
 
 @Component({
@@ -21,12 +22,12 @@ export class GridViewComponent implements OnInit {
   recordId;
   display;
 
-   selected_movie = movies[425];
+
   tiles: Tile[];
 
   constructor(
     private routeID: ActivatedRoute,
-    private route: Router,
+    private router: Router,
     private fs: FunctionsService
   ) {
     this.display = this.fs.getFilter();
@@ -40,10 +41,15 @@ export class GridViewComponent implements OnInit {
       let foundMovies = JSON.parse(localStorage.getItem("filterResult"));
       console.log("foundMovies 2:", foundMovies);
       this.tiles = foundMovies.map(movie => {
-            return {"tile_type":"image", "url": movie.poster, "cols": 1, "rows": 5, "color": movie.colour}
+            return {"tile_type":"image", "url": movie.poster,"cols": 1, "rows": 5, "color": movie.colour, "id": movie.id}
           }
       );
-  }
+  }//ng oninit
 
+  onClickExpand(movieId){
+  console.log("before nav")
+    this.router.navigateByUrl('/expanded?movieId='+movieId)
+    console.log("after nav")
+  }
 
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import movies from '../../assets/movies.json';
+import { Router, ActivatedRoute } from "@angular/router";
+import { FunctionsService } from "../functions.service";
 
 export interface Tile {
   tile_type: string;
@@ -17,25 +19,28 @@ export interface Tile {
   styleUrls: ['./expanded-view.component.css']
 })
 export class ExpandedViewComponent implements OnInit {
+  movieId: string;
+  tiles;
 
-row = 422;
-
-  selected_movie = movies[25];
-
-
-  tiles: Tile[] = [
-      {tile_type:"text", text: this.selected_movie.genre.join(", "), cols: 1, rows: 1, color: this.selected_movie.secondcolour},
-      {tile_type:"text", text: this.selected_movie.title, cols: 2, rows: 1, color: this.selected_movie.titlecolour},
-      {tile_type:"text", text: 'this.selected_movie.rating', cols: 1, rows: 1, color: this.selected_movie.secondcolour},
-      {tile_type:"image", url: this.selected_movie.poster, cols: 2, rows: 7, color: this.selected_movie.colour},
-      {tile_type:"text", text: this.selected_movie.description, cols: 2, rows: 7, color: this.selected_movie.descriptioncolour},
-
-  ]
-
-  constructor() { }
+  constructor(
+      private routeID: ActivatedRoute,
+      private router: Router,
+      private fs: FunctionsService
+  ) {
+    this.movieId = this.routeID.snapshot.queryParamMap.get("movieId");
+  }
 
   ngOnInit(): void {
+    let selected_movie = movies.find(iterator => iterator.id == this.movieId);
+    console.log("selected_movie: ", selected_movie)
 
+    this.tiles= [
+        {tile_type:"text", text: selected_movie.genre.join(", "), cols: 1, rows: 1, color: selected_movie.secondcolour},
+        {tile_type:"text", text: selected_movie.title, cols: 2, rows: 1, color: selected_movie.titlecolour},
+        {tile_type:"text", text: 'selected_movie.rating', cols: 1, rows: 1, color: selected_movie.secondcolour},
+        {tile_type:"image", url: selected_movie.poster, cols: 2, rows: 7, color: selected_movie.colour},
+        {tile_type:"text", text: selected_movie.description, cols: 2, rows: 7, color: selected_movie.descriptioncolour}
+    ]
   }
 
 }
