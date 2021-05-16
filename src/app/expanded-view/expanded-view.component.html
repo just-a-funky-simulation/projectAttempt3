@@ -1,7 +1,7 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 <div style="padding: 10px;">
   <mat-grid-list cols="4" rowHeight="100px" >
-    <mat-grid-tile
+    <mat-grid-tile style=" border-radius: 25px;"
       *ngFor="let tile of tiles"
       [colspan]="tile.cols"
       [rowspan]="tile.rows"
@@ -19,10 +19,10 @@
 </div>
 
 
-<div style=" margin-right: 10px; margin-left: 25%;">
+<div style="text-align: center; align: center; margin-right: 50px;">
 
-  <button mat-raised-button color="accent" (click)="addToWatchedList(movieId)">Watch</button>
-  <button mat-raised-button color="accent" routerLink="/grid">Exit / Back to grid view</button>
+  <button mat-raised-button color="accent" (click)="addToWatchedList(movieId)" class="actionbuttons">Watch</button>
+  <button mat-raised-button color="accent" routerLink="/grid" class="actionbuttons">Exit / Back to grid view</button>
 
 </div>
 

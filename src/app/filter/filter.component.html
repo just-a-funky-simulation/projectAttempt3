@@ -3,7 +3,15 @@
   <form flex [formGroup]="filterForm" (ngSubmit)="submit()" >
     <h1 class="text">Filter Movies</h1>
     <h2 class="text">Genre:</h2>
-    <div >
+    <div style="width: 75%;  text-align: center; align: center; padding-left: 150px">
+
+
+      <mat-button-toggle *ngFor="let genre_it of genre_choices" value="genre_it"
+                         [ngClass]="genre_it == genre ? 'selected': 'unselected'"
+                         (click)="selectGenre(genre_it)" class="hackedbutton">{{genre_it}}
+                          </mat-button-toggle>
+
+<!--
       <mat-button-toggle-group formControlName="genre" >
         <mat-button-toggle value="Action">Action</mat-button-toggle>
         <mat-button-toggle value="Adventure">Adventure</mat-button-toggle>
@@ -23,10 +31,11 @@
         <mat-button-toggle value="Thriller"> Thriller</mat-button-toggle>
         <mat-button-toggle value="War"> War</mat-button-toggle>
         <mat-button-toggle value="Western"> Western</mat-button-toggle>
-      </mat-button-toggle-group>
+      </mat-button-toggle-group>-->
     </div>
     <br />
     <br />
+    <div style="width: 75%;  text-align: center; align: center; padding-left: 150px">
     <h2 class="text"> Year:</h2>
     <mat-slider
      class="slider1"
@@ -35,24 +44,12 @@
       max="2020"
       step="10"
       value="0"
-      formControlName="year"
-    ></mat-slider>
+      formControlName="year"></mat-slider> </div>
 
-    <!-- <mat-slider
-        formControlName="sliderValue"
-        class="example-margin"
-        disabled="false"
-        invert="false"
-        max="200"
-        min="1"
-        step="1"
-        thumbLabel="true"
-        tickInterval="10"
-        vertical="false">
-    </mat-slider> -->
 
     <br />
     <h2 class="text">Rating:</h2>
+    <div style="width: 75%;  text-align: center; align: center; padding-left: 150px">
     <mat-slider
       class="slider2"
       thumbLabel
@@ -61,23 +58,36 @@
       step="0.5"
       value="0"
       formControlName="rating"
-    ></mat-slider>
-    <br />
+    ></mat-slider> </div>
 
-    <div>
+
+
+<!--    <div>-->
       <h2 class="text">Approximate Runtime:</h2>
-      <mat-button-toggle-group formControlName="runtime" class="runtime">
-        <mat-button-toggle value="1"> < 1 hour </mat-button-toggle>
-        <br />
-        <mat-button-toggle value="2">1 hour </mat-button-toggle>
-        <br />
-        <mat-button-toggle value="3">1.5 hours</mat-button-toggle>
-        <br />
-        <mat-button-toggle value="4">2 + hours</mat-button-toggle>
-      </mat-button-toggle-group>
+
+    <div style="width: 75%;  text-align: center; align: center; padding-left: 150px">
+
+    <mat-button-toggle *ngFor="let runtime_it of runtime_choices" value="runtime_it"
+                       [ngClass]="runtime_it == runtime ? 'selected': 'unselected'"
+                       (click)="selectRuntime(runtime_it)" class="hackedbutton">{{runtime_it}}
+    </mat-button-toggle>
     </div>
+
+
+    <!--      <mat-button-toggle-group formControlName="runtime" class="runtime">-->
+<!--        <mat-button-toggle value="1"> < 1 hour </mat-button-toggle>-->
+<!--        <br />-->
+<!--        <mat-button-toggle value="2">1 hour </mat-button-toggle>-->
+<!--        <br />-->
+<!--        <mat-button-toggle value="3">1.5 hours</mat-button-toggle>-->
+<!--        <br />-->
+<!--        <mat-button-toggle value="4">2 + hours</mat-button-toggle>-->
+<!--      </mat-button-toggle-group>-->
+<!--    </div>-->
     <div style="colour:grey; width:60px; height:60px"></div>
+    <div style="width: 75%;  text-align: center; align: center; padding-left: 150px">
     <button mat-raised-button color="accent" class="button">submit</button>
+    </div>
 <!--    <a mat-raised-button color="warn" routerLink="/grid">submit</a>-->
 
     <!-- <button

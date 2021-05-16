@@ -23,6 +23,11 @@ export class FilterComponent implements OnInit {
   year: number = 1969;
   genre: string = "";
 
+  genre_choices = ["Action", "Adventure", "Animation", "Biography", "Comedy", "Crime", "Documentary", "Drama",
+                   "Fantasy", "History", "Horror", "Mystery", "Romance", "Sci-Fi", "Short", "Thriller",
+                   "War", "Western"];
+
+  runtime_choices = ["1","2","3","4"];
   constructor(
     private fs: FunctionsService,
     private fb: FormBuilder,
@@ -43,6 +48,18 @@ export class FilterComponent implements OnInit {
 
     localStorage.setItem("filterResult", JSON.stringify([]));
   }
+
+  selectGenre(genre_choice){
+    console.log("Selected "+ genre_choice);
+    this.genre = genre_choice;
+    this.filterForm.value.genre = genre_choice;
+  }
+
+   selectRuntime(runtime_choice){
+      console.log("Selected "+ runtime_choice);
+      this.runtime = runtime_choice;
+      this.filterForm.value.runtime = runtime_choice;
+    }
 
   submit(): void {
     console.log("Filter.submit()");

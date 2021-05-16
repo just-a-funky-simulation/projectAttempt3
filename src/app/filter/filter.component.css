@@ -55,8 +55,26 @@ border-color: #673AB7;
  color: white;
  font-weight: 500;
  align: center;
+ text-align: center;
 }
 .button{
 align: center;
+width: 150px;
+}
+.buttondiv{
+width: 50px;
+}
+.selected{
+color:black;
+background-color: #FFD63F;
+}
+.unselected{
+color:black;
+background-color: #FFFFFF;
+}
+mat-button-toggle{
+  color: blue;
+}
+.hackedbutton{
 
 }
