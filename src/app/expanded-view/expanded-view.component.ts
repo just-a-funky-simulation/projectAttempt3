@@ -43,4 +43,9 @@ export class ExpandedViewComponent implements OnInit {
     ]
   }
 
+  addToWatchedList(movieId){
+      console.log("this.fs: ",this.fs);
+      console.log("this.fs.addToWatchedList: ",this.fs.addToWatchedList);
+      this.fs.addToWatchedList(movieId);
+  }//
 }

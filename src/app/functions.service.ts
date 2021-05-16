@@ -80,9 +80,27 @@ export class FunctionsService {
     );
 
   }//getFiltered
-clearFiltered(){
-    localStorage.setItem("filterResult", JSON.stringify([]));
-}//end clear
+
+  clearFiltered() {
+      localStorage.setItem("filterResult", JSON.stringify([]));
+  }//end clear
+
+
+  getWatchedList(){
+    let watchedList = localStorage.getItem('watchedList');
+    if (watchedList != null){
+      return JSON.parse(watchedList);
+    } else {
+      return [];
+    }
+  }
+
+  addToWatchedList(movieId){
+    let watchedList = this.getWatchedList();
+    watchedList.push(movieId);
+    localStorage.setItem('watchedList', JSON.stringify(watchedList));
+  }
+
 }
 /// FUNCTIONS TO TODO --- if watched add to watched list, Watched Button add to Watched List
 /// Filter movies by selected filters

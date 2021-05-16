@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import movies from '../../assets/movies.json';
+import { FunctionsService } from "../functions.service";
 
 export interface Tile {
   color: string;
@@ -17,19 +18,24 @@ export class WatchedMovieComponent implements OnInit {
 
 row = 421;
 
-  tiles: Tile[] = [
-  	{text: 'bklah', cols: 4, rows: 1, color: 'lightpink'},
-  	{text: 'text', cols: 4, rows: 1, color: 'lightpink'},
-  	{text: 'text', cols: 4, rows: 1, color: 'lightpink'},
-  	{text: 'text', cols: 4, rows: 1, color: 'lightpink'}
-  ]
+  tiles: Tile[] = [ ]
 
 
-  constructor() { }
+  constructor( private fs: FunctionsService) { }
 
   ngOnInit(): void {
+    let watchedIds = this.fs.getWatchedList();
 
-  let watchedlist: Array<string>;
-  }
+    let watchedMovies = movies.filter(iterator => watchedIds.includes(iterator.id) );
+
+    this.tiles = watchedMovies.map(iterator => {
+      return {text: iterator.title, cols: 2, rows: 1, color: iterator.descriptioncolour}
+    });
+
+
+
+  //localStorage.setItem('myCat', 'Tom');
+  //const cat = localStorage.getItem('myCat');
+  }// end ng
 
 }
