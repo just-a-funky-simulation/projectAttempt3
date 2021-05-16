@@ -15,7 +15,7 @@
             "Comedy",
             "War"
         ],
-        "rating": "7.9"
+        "rating": 7.9
     },
     {
         "id": "tt6751668",
@@ -33,7 +33,7 @@
             "Drama",
             "Thriller"
         ],
-        "rating": "8.6"
+        "rating": 8.6
     },
     {
         "id": "tt0335266",
@@ -50,7 +50,7 @@
             "Comedy",
             "Drama"
         ],
-        "rating": "7.7"
+        "rating": 7.7
     },
     {
         "id": "tt0120815",
@@ -67,7 +67,7 @@
             "Drama",
             "War"
         ],
-        "rating": "8.6"
+        "rating": 8.6
     },
     {
         "id": "tt0338013",
@@ -85,7 +85,7 @@
             "Romance",
             "Sci-Fi"
         ],
-        "rating": "8.3"
+        "rating": 8.3
     },
     {
         "id": "tt3460252",
@@ -103,7 +103,7 @@
             "Drama",
             "Mystery"
         ],
-        "rating": "7.8"
+        "rating": 7.8
     },
     {
         "id": "tt0230600",
@@ -121,7 +121,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "7.6"
+        "rating": 7.6
     },
     {
         "id": "tt6998518",
@@ -139,7 +139,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "6.5"
+        "rating": 6.5
     },
     {
         "id": "tt0361748",
@@ -157,7 +157,7 @@
             "Drama",
             "War"
         ],
-        "rating": "8.3"
+        "rating": 8.3
     },
     {
         "id": "tt0079944",
@@ -174,7 +174,7 @@
             "Drama",
             "Sci-Fi"
         ],
-        "rating": "8.2"
+        "rating": 8.2
     },
     {
         "id": "tt3262342",
@@ -192,7 +192,7 @@
             "Biography",
             "Crime"
         ],
-        "rating": "7.8"
+        "rating": 7.8
     },
     {
         "id": "tt0114369",
@@ -210,7 +210,7 @@
             "Drama",
             "Mystery"
         ],
-        "rating": "8.6"
+        "rating": 8.6
     },
     {
         "id": "tt0457430",
@@ -228,7 +228,7 @@
             "Fantasy",
             "War"
         ],
-        "rating": "8.2"
+        "rating": 8.2
     },
     {
         "id": "tt7784604",
@@ -246,7 +246,7 @@
             "Horror",
             "Mystery"
         ],
-        "rating": "7.3"
+        "rating": 7.3
     },
     {
         "id": "tt3235888",
@@ -264,7 +264,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "6.8"
+        "rating": 6.8
     },
     {
         "id": "tt4263482",
@@ -282,7 +282,7 @@
             "Horror",
             "Mystery"
         ],
-        "rating": "6.9"
+        "rating": 6.9
     },
     {
         "id": "tt3289956",
@@ -300,7 +300,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "6.8"
+        "rating": 6.8
     },
     {
         "id": "tt3065204",
@@ -318,7 +318,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "7.3"
+        "rating": 7.3
     },
     {
         "id": "tt5109784",
@@ -336,7 +336,7 @@
             "Horror",
             "Mystery"
         ],
-        "rating": "6.6"
+        "rating": 6.6
     },
     {
         "id": "tt0404032",
@@ -354,7 +354,7 @@
             "Horror",
             "Thriller"
         ],
-        "rating": "6.7"
+        "rating": 6.7
     },
     {
         "id": "tt1259521",
@@ -372,7 +372,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "7.0"
+        "rating": 7.0
     },
     {
         "id": "tt0081505",
@@ -389,7 +389,7 @@
             "Drama",
             "Horror"
         ],
-        "rating": "8.4"
+        "rating": 8.4
     },
     {
         "id": "tt0844479",
@@ -406,7 +406,7 @@
             "Horror",
             "Thriller"
         ],
-        "rating": "6.4"
+        "rating": 6.4
     },
     {
         "id": "tt0119081",
@@ -424,7 +424,7 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "rating": "6.7"
+        "rating": 6.7
     },
     {
         "id": "tt8772262",
@@ -442,7 +442,7 @@
             "Horror",
             "Mystery"
         ],
-        "rating": "7.1"
+        "rating": 7.1
     },
     {
         "id": "tt0435625",
@@ -460,7 +460,7 @@
             "Horror",
             "Thriller"
         ],
-        "rating": "7.2"
+        "rating": 7.2
     },
     {
         "id": "tt7984734",
@@ -478,7 +478,7 @@
             "Fantasy",
             "Horror"
         ],
-        "rating": "7.5"
+        "rating": 7.5
     },
     {
         "id": "tt6857112",
@@ -496,7 +496,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "6.9"
+        "rating": 6.9
     },
     {
         "id": "tt0072271",
@@ -512,7 +512,7 @@
         "genre": [
             "Horror"
         ],
-        "rating": "7.5"
+        "rating": 7.5
     },
     {
         "id": "tt0078748",
@@ -529,7 +529,7 @@
             "Horror",
             "Sci-Fi"
         ],
-        "rating": "8.4"
+        "rating": 8.4
     },
     {
         "id": "tt1446714",
@@ -547,7 +547,7 @@
             "Mystery",
             "Sci-Fi"
         ],
-        "rating": "7.0"
+        "rating": 7.0
     },
     {
         "id": "tt0062622",
@@ -564,7 +564,7 @@
             "Adventure",
             "Sci-Fi"
         ],
-        "rating": "8.3"
+        "rating": 8.3
     },
     {
         "id": "tt0083658",
@@ -582,7 +582,7 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "rating": "8.1"
+        "rating": 8.1
     },
     {
         "id": "tt1136608",
@@ -600,7 +600,7 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "rating": "7.9"
+        "rating": 7.9
     },
     {
         "id": "tt3659388",
@@ -618,7 +618,7 @@
             "Drama",
             "Sci-Fi"
         ],
-        "rating": "8.0"
+        "rating": 8.0
     },
     {
         "id": "tt2798920",
@@ -636,7 +636,7 @@
             "Horror",
             "Adventure"
         ],
-        "rating": "6.8"
+        "rating": 6.8
     },
     {
         "id": "tt0945513",
@@ -654,7 +654,7 @@
             "Action",
             "Mystery"
         ],
-        "rating": "7.5"
+        "rating": 7.5
     },
     {
         "id": "tt0816692",
@@ -672,7 +672,7 @@
             "Drama",
             "Sci-Fi"
         ],
-        "rating": "8.6"
+        "rating": 8.6
     },
     {
         "id": "tt1663662",
@@ -690,7 +690,7 @@
             "Adventure",
             "Sci-Fi"
         ],
-        "rating": "6.9"
+        "rating": 6.9
     },
     {
         "id": "tt0069293",
@@ -708,7 +708,7 @@
             "Mystery",
             "Sci-Fi"
         ],
-        "rating": "8.1"
+        "rating": 8.1
     },
     {
         "id": "tt0076759",
@@ -726,7 +726,7 @@
             "Adventure",
             "Family"
         ],
-        "rating": "8.6"
+        "rating": 8.6
     },
     {
         "id": "tt0120915",
@@ -744,7 +744,7 @@
             "Adventure",
             "Fantasy"
         ],
-        "rating": "6.5"
+        "rating": 6.5
     },
     {
         "id": "tt2543164",
@@ -762,7 +762,7 @@
             "Sci-Fi",
             "Action"
         ],
-        "rating": "7.9"
+        "rating": 7.9
     },
     {
         "id": "tt0470752",
@@ -780,7 +780,7 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "rating": "7.7"
+        "rating": 7.7
     },
     {
         "id": "tt1179933",
@@ -798,7 +798,7 @@
             "Drama",
             "Horror"
         ],
-        "rating": "7.2"
+        "rating": 7.2
     },
     {
         "id": "tt0246578",
@@ -816,7 +816,7 @@
             "Mystery",
             "Sci-Fi"
         ],
-        "rating": "8.0"
+        "rating": 8.0
     },
     {
         "id": "tt1375666",
@@ -834,7 +834,7 @@
             "Adventure",
             "Sci-Fi"
         ],
-        "rating": "8.8"
+        "rating": 8.8
     },
     {
         "id": "tt1392214",
@@ -852,7 +852,7 @@
             "Drama",
             "Mystery"
         ],
-        "rating": "8.1"
+        "rating": 8.1
     },
     {
         "id": "tt4972582",
@@ -869,7 +869,7 @@
             "Horror",
             "Thriller"
         ],
-        "rating": "7.3"
+        "rating": 7.3
     },
     {
         "id": "tt4052882",
@@ -887,7 +887,7 @@
             "Drama",
             "Horror"
         ],
-        "rating": "6.3"
+        "rating": 6.3
     },
     {
         "id": "tt0120737",
@@ -905,7 +905,7 @@
             "Adventure",
             "Drama"
         ],
-        "rating": "8.8"
+        "rating": 8.8
     },
     {
         "id": "tt1104001",
@@ -923,7 +923,7 @@
             "Adventure",
             "Sci-Fi"
         ],
-        "rating": "6.8"
+        "rating": 6.8
     },
     {
         "id": "tt4547194",
@@ -941,7 +941,7 @@
             "Fantasy",
             "Thriller"
         ],
-        "rating": "6.1"
+        "rating": 6.1
     },
     {
         "id": "tt0499549",
@@ -959,7 +959,7 @@
             "Adventure",
             "Fantasy"
         ],
-        "rating": "7.8"
+        "rating": 7.8
     },
     {
         "id": "tt0327597",
@@ -977,7 +977,7 @@
             "Drama",
             "Family"
         ],
-        "rating": "7.7"
+        "rating": 7.7
     },
     {
         "id": "tt2278388",
@@ -995,7 +995,7 @@
             "Comedy",
             "Crime"
         ],
-        "rating": "8.1"
+        "rating": 8.1
     },
     {
         "id": "tt2380307",
@@ -1010,7 +1010,7 @@
             "Adventure",
             "Family"
         ],
-        "rating": "8.4"
+        "rating": 8.4
     },
     {
         "id": "tt0876563",
@@ -1025,7 +1025,7 @@
             "Adventure",
             "Comedy"
         ],
-        "rating": "7.7"
+        "rating": 7.7
     },
     {
         "id": "tt0245429",
@@ -1040,7 +1040,7 @@
             "Adventure",
             "Family"
         ],
-        "rating": "8.6"
+        "rating": 8.6
     },
     {
         "id": "tt0114709",
@@ -1055,7 +1055,7 @@
             "Adventure",
             "Comedy"
         ],
-        "rating": "8.3"
+        "rating": 8.3
     },
     {
         "id": "tt0087544",
@@ -1070,7 +1070,7 @@
             "Adventure",
             "Fantasy"
         ],
-        "rating": "8.1"
+        "rating": 8.1
     },
     {
         "id": "tt0185371",
@@ -1085,7 +1085,7 @@
             "Fantasy",
             "Horror"
         ],
-        "rating": "5.7"
+        "rating": 5.7
     },
     {
         "id": "tt2245084",
@@ -1100,7 +1100,7 @@
             "Action",
             "Adventure"
         ],
-        "rating": "7.8"
+        "rating": 7.8
     },
     {
         "id": "tt1392190",
@@ -1115,7 +1115,7 @@
             "Adventure",
             "Sci-Fi"
         ],
-        "rating": "8.1"
+        "rating": 8.1
     },
     {
         "id": "tt4925292",
@@ -1129,7 +1129,7 @@
             "Comedy",
             "Drama"
         ],
-        "rating": "7.4"
+        "rating": 7.4
     },
     {
         "id": "tt0073486",
@@ -1142,7 +1142,7 @@
         "genre": [
             "Drama"
         ],
-        "rating": "8.7"
+        "rating": 8.7
     },
     {
         "id": "tt0102926",
@@ -1157,7 +1157,7 @@
             "Drama",
             "Thriller"
         ],
-        "rating": "8.6"
+        "rating": 8.6
     },
     {
         "id": "tt1853728",
@@ -1171,7 +1171,7 @@
             "Drama",
             "Western"
         ],
-        "rating": "8.4"
+        "rating": 8.4
     },
     {
         "id": "tt0119698",
@@ -1186,7 +1186,7 @@
             "Action",
             "Adventure"
         ],
-        "rating": "8.4"
+        "rating": 8.4
     },
     {
         "id": "tt0409459",
@@ -1200,7 +1200,7 @@
             "Horror",
             "Sci-Fi"
         ],
-        "rating": "7.6"
+        "rating": 7.6
     },
     {
         "id": "tt0017136",
@@ -1214,7 +1214,7 @@
             "Drama",
             "Sci-Fi"
         ],
-        "rating": "8.3"
+        "rating": 8.3
     },
     {
         "id": "tt0211915",
@@ -1228,7 +1228,7 @@
             "Comedy",
             "Romance"
         ],
-        "rating": "8.3"
+        "rating": 8.3
     },
     {
         "id": "tt4003440",
@@ -1243,7 +1243,7 @@
             "Drama",
             "Horror"
         ],
-        "rating": "6.8"
+        "rating": 6.8
     },
     {
         "id": "tt3501632",
@@ -1258,7 +1258,7 @@
             "Adventure",
             "Comedy"
         ],
-        "rating": "7.9"
+        "rating": 7.9
     },
     {
         "id": "tt1070874",
@@ -1273,7 +1273,7 @@
             "History",
             "Thriller"
         ],
-        "rating": "7.8"
+        "rating": 7.8
     },
     {
         "id": "tt10288566",
@@ -1287,7 +1287,7 @@
             "Comedy",
             "Drama"
         ],
-        "rating": "8.1"
+        "rating": 8.1
     },
     {
         "id": "tt7979580",
@@ -1315,7 +1315,7 @@
             "Comedy",
             "Drama"
         ],
-        "rating": "7.6"
+        "rating": 7.6
     },
     {
         "id": "tt8946378",
@@ -1330,7 +1330,7 @@
             "Crime",
             "Drama"
         ],
-        "rating": "7.9"
+        "rating": 7.9
     },
     {
         "id": "tt0088763",
@@ -1345,7 +1345,7 @@
             "Comedy",
             "Sci-Fi"
         ],
-        "rating": "8.5"
+        "rating": 8.5
     },
     {
         "id": "tt0446029",
@@ -1360,7 +1360,7 @@
             "Comedy",
             "Fantasy"
         ],
-        "rating": "7.5"
+        "rating": 7.5
     },
     {
         "id": "tt2554274",
@@ -1375,7 +1375,7 @@
             "Fantasy",
             "Horror"
         ],
-        "rating": "6.5"
+        "rating": 6.5
     },
     {
         "id": "tt5606664",
@@ -1390,7 +1390,7 @@
             "Fantasy",
             "Horror"
         ],
-        "rating": "7.3"
+        "rating": 7.3
     },
     {
         "id": "tt0387564",
@@ -1405,7 +1405,7 @@
             "Mystery",
             "Thriller"
         ],
-        "rating": "7.6"
+        "rating": 7.6
     },
     {
         "id": "tt0070047",
@@ -1418,7 +1418,7 @@
         "genre": [
             "Horror"
         ],
-        "rating": "8.0"
+        "rating": 8.0
     },
     {
         "id": "tt0360486",
@@ -1436,71 +1436,6 @@
             "Fantasy",
             "Horror"
         ],
-        "rating": "7.0"
-    },
-    {
-        "id": "",
-        "title": "",
-        "year": "",
-        "runTime": "",
-        "description": ".",
-        "poster": "",
-        "genre": [
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-        "id": "",
-        "title": "",
-        "year": "",
-        "runTime": "",
-        "description": ".",
-        "poster": "",
-        "genre": [
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-        "id": "",
-        "title": "",
-        "year": "",
-        "runTime": "",
-        "description": ".",
-        "poster": "",
-        "genre": [
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-        "id": "",
-        "title": "",
-        "year": "",
-        "runTime": "",
-        "description": ".",
-        "poster": "",
-        "genre": [
-            "",
-            "",
-            ""
-        ]
-    },
-    {
-        "id": "",
-        "title": "",
-        "year": "",
-        "runTime": "",
-        "description": ".",
-        "poster": "",
-        "genre": [
-            "",
-            "",
-            ""
-        ]
+        "rating": 7.0
     }
 ]

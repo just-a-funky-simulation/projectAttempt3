@@ -15,8 +15,10 @@
       <div *ngIf="tile.tile_type == 'text'">
 
       </div>
+
       <div *ngIf="tile.tile_type == 'image'" align="center" (click)="onClickExpand(tile.id)">
         <img src="{{tile.url}}" width="100%" />
+
       </div>
 
     </mat-grid-tile>

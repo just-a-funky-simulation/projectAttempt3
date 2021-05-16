@@ -37,7 +37,7 @@ export class ExpandedViewComponent implements OnInit {
     this.tiles= [
         {tile_type:"text", text: selected_movie.genre.join(", "), cols: 1, rows: 1, color: selected_movie.secondcolour},
         {tile_type:"text", text: selected_movie.title, cols: 2, rows: 1, color: selected_movie.titlecolour},
-        {tile_type:"text", text: 'selected_movie.rating', cols: 1, rows: 1, color: selected_movie.secondcolour},
+        {tile_type:"text", text: selected_movie.rating, cols: 1, rows: 1, color: selected_movie.secondcolour},
         {tile_type:"image", url: selected_movie.poster, cols: 2, rows: 7, color: selected_movie.colour},
         {tile_type:"text", text: selected_movie.description, cols: 2, rows: 7, color: selected_movie.descriptioncolour}
     ]

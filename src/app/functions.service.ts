@@ -50,8 +50,8 @@ export class FunctionsService {
           (filterForm.genre==null || iterator.genre.includes(filterForm.genre))
           &&
           (filterForm.year==null || (iterator.year >= filterForm.year-5 && iterator.year <= filterForm.year+5 ))
-//           &&
-         //  (filterForm.rating==null || iterator.rating==null || (iterator.rating >= filterForm.rating-1 && iterator.rating <= filterForm.rating+1))
+          &&
+        (filterForm.rating==null || iterator.rating==null || (iterator.rating >= filterForm.rating-1 && iterator.rating <= filterForm.rating+1))
           &&
           (filterForm.runtime ==null || this.isMovieMatchingRuntimeFilter(iterator, filterForm.runtime) )
 
